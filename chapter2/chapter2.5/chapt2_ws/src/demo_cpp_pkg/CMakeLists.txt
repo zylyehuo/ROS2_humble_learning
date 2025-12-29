@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)  # 直接查找 rclcpp 对应的头文件和库文
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+include_directories(include)  # 包含 include 头文件目录
 
 add_executable(cpp_node src/cpp_node.cpp)  # 添加可执行文件 add_executable(g++ 输出的目标文件(可执行文件)的名字 源程序的名字)
 add_executable(person_node src/person_node.cpp)
@@ -18,6 +19,7 @@ add_executable(learn_auto src/learn_auto.cpp)
 add_executable(learn_shared_ptr src/learn_shared_ptr.cpp)
 add_executable(learn_lambda src/learn_lambda.cpp)
 add_executable(learn_functional src/learn_functional.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
 
 # message(STATUS ${rclcpp_INCLUDE_DIRS})  # 头文件及 rclcpp 依赖的头文件
 # message(STATUS ${rclcpp_LIBRARIES})  # 库文件及 rclcpp 依赖的库文件
@@ -32,6 +34,7 @@ ament_target_dependencies(learn_auto rclcpp)
 ament_target_dependencies(learn_shared_ptr rclcpp)
 ament_target_dependencies(learn_lambda rclcpp)
 ament_target_dependencies(learn_functional rclcpp)
+ament_target_dependencies(learn_thread rclcpp)
 
 install(TARGETS cpp_node           # 安装命令
   DESTINATION lib/${PROJECT_NAME}  # 拷贝可执行文件的目标地址
@@ -54,6 +57,10 @@ install(TARGETS learn_lambda
 )
 
 install(TARGETS learn_functional
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS learn_thread
   DESTINATION lib/${PROJECT_NAME}
 )
 
