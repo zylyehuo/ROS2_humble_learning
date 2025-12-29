@@ -1,0 +1,270 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000505] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict()}
+[0.000538] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.011883] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[0.017549] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.019394] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.020118] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zylyehuo'), ('GIT_ASKPASS', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zylyehuo'), ('OLDPWD', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a0d04d8f-5a6f-40d1-8bba-5e117b9a02c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zylyehuo'), ('NAME', 'LAPTOP-4FQQUA1G'), ('WSL_INTEROP', '/run/WSL/478_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/d/MATLAB/Matlab2018a/runtime/win64:/mnt/d/MATLAB/Matlab2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Bandizip/Bandizip/:/mnt/d/WechatDeveloperTools/wechat_devtools/微信web开发者工具/dll:/mnt/c/Pro:/mnt/d/git/Git/Git/cmd:/mnt/d/nvm/nvm1.1.11/nvm:/mnt/d/nvm/nvm1.1.11/nodejs:/mnt/d/nodejs/18.16.1_LTS/nodejs/:/mnt/d/redis/Redis3.2.100/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Xshell/Xshell-7/:/mnt/d/Eralng/erl9.2/bin:/mnt/c/Program Files/Microsoft SQL Server/110/Tools/Binn/:/mnt/d/TensorRT/TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8/TensorRT-8.6.1.6/lib:/mnt/d/Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64:/mnt/c/Program Files (x86)/Pandoc/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Thinkpad/.cargo/bin/:/mnt/d/cmake/30_0_8/bin:/mnt/d/LaTeX/texstudio:/mnt/c/Users/Thinkpad/.cargo/bin:/mnt/c/Users/Thinkpad/.mujoco/mujoco210/bin:/mnt/d/anaconda/anaconda3:/mnt/d/anaconda/anaconda3/Library/mingw-w64/bin:/mnt/d/anaconda/anaconda3/Library/usr/bin:/mnt/d/anaconda/anaconda3/Library/bin:/mnt/d/anaconda/anaconda3/Scripts:/mnt/c/Users/Thinkpad/AppData/Local/Microsoft/WindowsApps:/mnt/d/PyCharm/PyCharm 2022.3.3/bin:/mnt/d/mysql-5.7.31-winx64/bin:/mnt/d/mysql-8.0.20-winx64/mysql-8.0.20-winx64/bin:/mnt/d/texlive/2023/bin/windows:/mnt/d/vscode/Microsoft VS Code/Microsoft VS Code/bin:/mnt/d/WebStorm/WebStorm 2023.1.3/bin:/mnt/d/PyCharm/PyCharm Community Edition 232.8296.19/bin:/mnt/d/nvm/nvm1.1.11/nvm:/mnt/d/nvm/nvm1.1.11/nodejs:/mnt/c/Users/Thinkpad/AppData/Roaming/npm:/mnt/c/Users/Thinkpad/.dotnet/tools:/mnt/d/YonStudio/YonStudio-v1.1.1/YonStudio/bin:/mnt/d/APICloud Studio 3/APICloud Studio 3/bin:/mnt/d/Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64:/mnt/d/微信开发者工具/稳定版 Stable Build (1.06.2401020)/微信web开发者工具/dll:/mnt/d/CLion/CLion-2024-3/CLion 2024.3/bin:/mnt/c/Users/Thinkpad/AppData/Local/Programs/Ollama:/snap/bin:/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-35fc913898a637be.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/zylyehuo/.vscode-server/data/User/workspaceStorage/ac228465f403b622419716a33dd52310/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-517379e7bd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099104] (-) TimerEvent: {}
+[0.138503] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200710] (-) TimerEvent: {}
+[0.279043] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300935] (-) TimerEvent: {}
+[0.405118] (-) TimerEvent: {}
+[0.509297] (-) TimerEvent: {}
+[0.613477] (-) TimerEvent: {}
+[0.664639] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.670706] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.683042] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.693926] (demo_python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_pkg', 'build', '--build-base', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_python_pkg/build', 'install', '--record', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_python_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/src/demo_python_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zylyehuo', 'GIT_ASKPASS': '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zylyehuo', 'OLDPWD': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a0d04d8f-5a6f-40d1-8bba-5e117b9a02c7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zylyehuo', 'NAME': 'LAPTOP-4FQQUA1G', 'WSL_INTEROP': '/run/WSL/478_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/d/MATLAB/Matlab2018a/runtime/win64:/mnt/d/MATLAB/Matlab2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Bandizip/Bandizip/:/mnt/d/WechatDeveloperTools/wechat_devtools/微信web开发者工具/dll:/mnt/c/Pro:/mnt/d/git/Git/Git/cmd:/mnt/d/nvm/nvm1.1.11/nvm:/mnt/d/nvm/nvm1.1.11/nodejs:/mnt/d/nodejs/18.16.1_LTS/nodejs/:/mnt/d/redis/Redis3.2.100/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Xshell/Xshell-7/:/mnt/d/Eralng/erl9.2/bin:/mnt/c/Program Files/Microsoft SQL Server/110/Tools/Binn/:/mnt/d/TensorRT/TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8/TensorRT-8.6.1.6/lib:/mnt/d/Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64:/mnt/c/Program Files (x86)/Pandoc/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Thinkpad/.cargo/bin/:/mnt/d/cmake/30_0_8/bin:/mnt/d/LaTeX/texstudio:/mnt/c/Users/Thinkpad/.cargo/bin:/mnt/c/Users/Thinkpad/.mujoco/mujoco210/bin:/mnt/d/anaconda/anaconda3:/mnt/d/anaconda/anaconda3/Library/mingw-w64/bin:/mnt/d/anaconda/anaconda3/Library/usr/bin:/mnt/d/anaconda/anaconda3/Library/bin:/mnt/d/anaconda/anaconda3/Scripts:/mnt/c/Users/Thinkpad/AppData/Local/Microsoft/WindowsApps:/mnt/d/PyCharm/PyCharm 2022.3.3/bin:/mnt/d/mysql-5.7.31-winx64/bin:/mnt/d/mysql-8.0.20-winx64/mysql-8.0.20-winx64/bin:/mnt/d/texlive/2023/bin/windows:/mnt/d/vscode/Microsoft VS Code/Microsoft VS Code/bin:/mnt/d/WebStorm/WebStorm 2023.1.3/bin:/mnt/d/PyCharm/PyCharm Community Edition 232.8296.19/bin:/mnt/d/nvm/nvm1.1.11/nvm:/mnt/d/nvm/nvm1.1.11/nodejs:/mnt/c/Users/Thinkpad/AppData/Roaming/npm:/mnt/c/Users/Thinkpad/.dotnet/tools:/mnt/d/YonStudio/YonStudio-v1.1.1/YonStudio/bin:/mnt/d/APICloud Studio 3/APICloud Studio 3/bin:/mnt/d/Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64:/mnt/d/微信开发者工具/稳定版 Stable Build (1.06.2401020)/微信web开发者工具/dll:/mnt/d/CLion/CLion-2024-3/CLion 2024.3/bin:/mnt/c/Users/Thinkpad/AppData/Local/Programs/Ollama:/snap/bin:/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-35fc913898a637be.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/zylyehuo/.vscode-server/data/User/workspaceStorage/ac228465f403b622419716a33dd52310/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-517379e7bd.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_python_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[0.701581] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.714109] (-) TimerEvent: {}
+[0.722488] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.776996] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.780892] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.815534] (-) TimerEvent: {}
+[0.871257] (demo_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.871817] (demo_python_pkg) StdoutLine: {'line': b'writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO\n'}
+[0.872228] (demo_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt\n'}
+[0.872506] (demo_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt\n'}
+[0.872750] (demo_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt\n'}
+[0.872804] (demo_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt\n'}
+[0.873860] (demo_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[0.874422] (demo_python_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.874969] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[0.875106] (demo_python_pkg) StdoutLine: {'line': b'running build\n'}
+[0.875214] (demo_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.875525] (demo_python_pkg) StdoutLine: {'line': b'running install\n'}
+[0.875878] (demo_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.876767] (demo_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.876866] (demo_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.878253] (demo_python_pkg) StdoutLine: {'line': b"removing '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.878574] (demo_python_pkg) StdoutLine: {'line': b'Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info\n'}
+[0.879985] (demo_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.897326] (demo_python_pkg) StdoutLine: {'line': b'Installing person_node script to /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.897698] (demo_python_pkg) StdoutLine: {'line': b'Installing python_node script to /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.897842] (demo_python_pkg) StdoutLine: {'line': b'Installing writer_node script to /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.898257] (demo_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_python_pkg/install.log'\n"}
+[0.916326] (-) TimerEvent: {}
+[0.917517] (demo_python_pkg) CommandEnded: {'returncode': 0}
+[0.932211] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 0}
+[1.018989] (-) TimerEvent: {}
+[1.121662] (-) TimerEvent: {}
+[1.225914] (-) TimerEvent: {}
+[1.330195] (-) TimerEvent: {}
+[1.434514] (-) TimerEvent: {}
+[1.538826] (-) TimerEvent: {}
+[1.643091] (-) TimerEvent: {}
+[1.747381] (-) TimerEvent: {}
+[1.851497] (-) TimerEvent: {}
+[1.955731] (-) TimerEvent: {}
+[2.059970] (-) TimerEvent: {}
+[2.164199] (-) TimerEvent: {}
+[2.268443] (-) TimerEvent: {}
+[2.372676] (-) TimerEvent: {}
+[2.477139] (-) TimerEvent: {}
+[2.581746] (-) TimerEvent: {}
+[2.685162] (-) TimerEvent: {}
+[2.786320] (-) TimerEvent: {}
+[2.890999] (-) TimerEvent: {}
+[2.995617] (-) TimerEvent: {}
+[3.100197] (-) TimerEvent: {}
+[3.204761] (-) TimerEvent: {}
+[3.309335] (-) TimerEvent: {}
+[3.413896] (-) TimerEvent: {}
+[3.518471] (-) TimerEvent: {}
+[3.623053] (-) TimerEvent: {}
+[3.727686] (-) TimerEvent: {}
+[3.832297] (-) TimerEvent: {}
+[3.936595] (-) TimerEvent: {}
+[4.040899] (-) TimerEvent: {}
+[4.142039] (-) TimerEvent: {}
+[4.246626] (-) TimerEvent: {}
+[4.351239] (-) TimerEvent: {}
+[4.455838] (-) TimerEvent: {}
+[4.560434] (-) TimerEvent: {}
+[4.665018] (-) TimerEvent: {}
+[4.769612] (-) TimerEvent: {}
+[4.874299] (-) TimerEvent: {}
+[4.978979] (-) TimerEvent: {}
+[5.083633] (-) TimerEvent: {}
+[5.187002] (-) TimerEvent: {}
+[5.288294] (-) TimerEvent: {}
+[5.392875] (-) TimerEvent: {}
+[5.497458] (-) TimerEvent: {}
+[5.602008] (-) TimerEvent: {}
+[5.706585] (-) TimerEvent: {}
+[5.811217] (-) TimerEvent: {}
+[5.915815] (-) TimerEvent: {}
+[6.020238] (-) TimerEvent: {}
+[6.124815] (-) TimerEvent: {}
+[6.229417] (-) TimerEvent: {}
+[6.334075] (-) TimerEvent: {}
+[6.438679] (-) TimerEvent: {}
+[6.543296] (-) TimerEvent: {}
+[6.647908] (-) TimerEvent: {}
+[6.752531] (-) TimerEvent: {}
+[6.857133] (-) TimerEvent: {}
+[6.961789] (-) TimerEvent: {}
+[7.066432] (-) TimerEvent: {}
+[7.171093] (-) TimerEvent: {}
+[7.276036] (-) TimerEvent: {}
+[7.381027] (-) TimerEvent: {}
+[7.485641] (-) TimerEvent: {}
+[7.590377] (-) TimerEvent: {}
+[7.693997] (-) TimerEvent: {}
+[7.795553] (-) TimerEvent: {}
+[7.900370] (-) TimerEvent: {}
+[8.005236] (-) TimerEvent: {}
+[8.110169] (-) TimerEvent: {}
+[8.214728] (-) TimerEvent: {}
+[8.319490] (-) TimerEvent: {}
+[8.424194] (-) TimerEvent: {}
+[8.528804] (-) TimerEvent: {}
+[8.633398] (-) TimerEvent: {}
+[8.738001] (-) TimerEvent: {}
+[8.842576] (-) TimerEvent: {}
+[8.947174] (-) TimerEvent: {}
+[9.049780] (-) TimerEvent: {}
+[9.154170] (-) TimerEvent: {}
+[9.258796] (-) TimerEvent: {}
+[9.363567] (-) TimerEvent: {}
+[9.468193] (-) TimerEvent: {}
+[9.572803] (-) TimerEvent: {}
+[9.677429] (-) TimerEvent: {}
+[9.782030] (-) TimerEvent: {}
+[9.886690] (-) TimerEvent: {}
+[9.987262] (-) TimerEvent: {}
+[10.089967] (-) TimerEvent: {}
+[10.193706] (-) TimerEvent: {}
+[10.295271] (-) TimerEvent: {}
+[10.399892] (-) TimerEvent: {}
+[10.504606] (-) TimerEvent: {}
+[10.609466] (-) TimerEvent: {}
+[10.714497] (-) TimerEvent: {}
+[10.819356] (-) TimerEvent: {}
+[10.924233] (-) TimerEvent: {}
+[11.028974] (-) TimerEvent: {}
+[11.133709] (-) TimerEvent: {}
+[11.238388] (-) TimerEvent: {}
+[11.343123] (-) TimerEvent: {}
+[11.447880] (-) TimerEvent: {}
+[11.552584] (-) TimerEvent: {}
+[11.657353] (-) TimerEvent: {}
+[11.762141] (-) TimerEvent: {}
+[11.866889] (-) TimerEvent: {}
+[11.971616] (-) TimerEvent: {}
+[12.076322] (-) TimerEvent: {}
+[12.179077] (-) TimerEvent: {}
+[12.283640] (-) TimerEvent: {}
+[12.388406] (-) TimerEvent: {}
+[12.490081] (-) TimerEvent: {}
+[12.595102] (-) TimerEvent: {}
+[12.699161] (-) TimerEvent: {}
+[12.804003] (-) TimerEvent: {}
+[12.908749] (-) TimerEvent: {}
+[13.013474] (-) TimerEvent: {}
+[13.114080] (-) TimerEvent: {}
+[13.218639] (-) TimerEvent: {}
+[13.323270] (-) TimerEvent: {}
+[13.428088] (-) TimerEvent: {}
+[13.532879] (-) TimerEvent: {}
+[13.637609] (-) TimerEvent: {}
+[13.742343] (-) TimerEvent: {}
+[13.843071] (-) TimerEvent: {}
+[13.947862] (-) TimerEvent: {}
+[14.052330] (-) TimerEvent: {}
+[14.157345] (-) TimerEvent: {}
+[14.262297] (-) TimerEvent: {}
+[14.362874] (-) TimerEvent: {}
+[14.463445] (-) TimerEvent: {}
+[14.564995] (-) TimerEvent: {}
+[14.669720] (-) TimerEvent: {}
+[14.770265] (-) TimerEvent: {}
+[14.874981] (-) TimerEvent: {}
+[14.975893] (-) TimerEvent: {}
+[15.080664] (-) TimerEvent: {}
+[15.185530] (-) TimerEvent: {}
+[15.290278] (-) TimerEvent: {}
+[15.394973] (-) TimerEvent: {}
+[15.499684] (-) TimerEvent: {}
+[15.604446] (-) TimerEvent: {}
+[15.688672] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.705263] (-) TimerEvent: {}
+[15.770542] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.806978] (-) TimerEvent: {}
+[15.861510] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.861736] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[15.861784] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.864208] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.868602] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.868738] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.869586] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.872130] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.892076] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[15.897768] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg\n'}
+[15.907482] (-) TimerEvent: {}
+[15.931470] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[15.939425] (demo_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[15.945638] (demo_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target cpp_node\n'}
+[16.010250] (-) TimerEvent: {}
+[16.113919] (-) TimerEvent: {}
+[16.216135] (-) TimerEvent: {}
+[16.320951] (-) TimerEvent: {}
+[16.424041] (-) TimerEvent: {}
+[16.525012] (-) TimerEvent: {}
+[16.629880] (-) TimerEvent: {}
+[16.734607] (-) TimerEvent: {}
+[16.839381] (-) TimerEvent: {}
+[16.944124] (-) TimerEvent: {}
+[17.048894] (-) TimerEvent: {}
+[17.153457] (-) TimerEvent: {}
+[17.258300] (-) TimerEvent: {}
+[17.363091] (-) TimerEvent: {}
+[17.467960] (-) TimerEvent: {}
+[17.572711] (-) TimerEvent: {}
+[17.677134] (-) TimerEvent: {}
+[17.781985] (-) TimerEvent: {}
+[17.883874] (-) TimerEvent: {}
+[17.988628] (-) TimerEvent: {}
+[18.093378] (-) TimerEvent: {}
+[18.197939] (-) TimerEvent: {}
+[18.302791] (-) TimerEvent: {}
+[18.407556] (-) TimerEvent: {}
+[18.512325] (-) TimerEvent: {}
+[18.616628] (-) TimerEvent: {}
+[18.721004] (-) TimerEvent: {}
+[18.825509] (-) TimerEvent: {}
+[18.928563] (-) TimerEvent: {}
+[19.001906] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[19.029324] (-) TimerEvent: {}
+[19.133607] (-) TimerEvent: {}
+[19.237871] (-) TimerEvent: {}
+[19.342179] (-) TimerEvent: {}
+[19.395951] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target person_node\n'}
+[19.405895] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[19.406955] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'install'}
+[19.414041] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg'], 'cwd': '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zylyehuo'), ('GIT_ASKPASS', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zylyehuo'), ('OLDPWD', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a0d04d8f-5a6f-40d1-8bba-5e117b9a02c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zylyehuo'), ('NAME', 'LAPTOP-4FQQUA1G'), ('WSL_INTEROP', '/run/WSL/478_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zylyehuo/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/d/MATLAB/Matlab2018a/runtime/win64:/mnt/d/MATLAB/Matlab2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Bandizip/Bandizip/:/mnt/d/WechatDeveloperTools/wechat_devtools/微信web开发者工具/dll:/mnt/c/Pro:/mnt/d/git/Git/Git/cmd:/mnt/d/nvm/nvm1.1.11/nvm:/mnt/d/nvm/nvm1.1.11/nodejs:/mnt/d/nodejs/18.16.1_LTS/nodejs/:/mnt/d/redis/Redis3.2.100/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Xshell/Xshell-7/:/mnt/d/Eralng/erl9.2/bin:/mnt/c/Program Files/Microsoft SQL Server/110/Tools/Binn/:/mnt/d/TensorRT/TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8/TensorRT-8.6.1.6/lib:/mnt/d/Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64:/mnt/c/Program Files (x86)/Pandoc/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Thinkpad/.cargo/bin/:/mnt/d/cmake/30_0_8/bin:/mnt/d/LaTeX/texstudio:/mnt/c/Users/Thinkpad/.cargo/bin:/mnt/c/Users/Thinkpad/.mujoco/mujoco210/bin:/mnt/d/anaconda/anaconda3:/mnt/d/anaconda/anaconda3/Library/mingw-w64/bin:/mnt/d/anaconda/anaconda3/Library/usr/bin:/mnt/d/anaconda/anaconda3/Library/bin:/mnt/d/anaconda/anaconda3/Scripts:/mnt/c/Users/Thinkpad/AppData/Local/Microsoft/WindowsApps:/mnt/d/PyCharm/PyCharm 2022.3.3/bin:/mnt/d/mysql-5.7.31-winx64/bin:/mnt/d/mysql-8.0.20-winx64/mysql-8.0.20-winx64/bin:/mnt/d/texlive/2023/bin/windows:/mnt/d/vscode/Microsoft VS Code/Microsoft VS Code/bin:/mnt/d/WebStorm/WebStorm 2023.1.3/bin:/mnt/d/PyCharm/PyCharm Community Edition 232.8296.19/bin:/mnt/d/nvm/nvm1.1.11/nvm:/mnt/d/nvm/nvm1.1.11/nodejs:/mnt/c/Users/Thinkpad/AppData/Roaming/npm:/mnt/c/Users/Thinkpad/.dotnet/tools:/mnt/d/YonStudio/YonStudio-v1.1.1/YonStudio/bin:/mnt/d/APICloud Studio 3/APICloud Studio 3/bin:/mnt/d/Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64:/mnt/d/微信开发者工具/稳定版 Stable Build (1.06.2401020)/微信web开发者工具/dll:/mnt/d/CLion/CLion-2024-3/CLion 2024.3/bin:/mnt/c/Users/Thinkpad/AppData/Local/Programs/Ollama:/snap/bin:/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zylyehuo/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-35fc913898a637be.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/zylyehuo/.vscode-server/data/User/workspaceStorage/ac228465f403b622419716a33dd52310/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-517379e7bd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[19.420406] (demo_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.422642] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node\n'}
+[19.422914] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node\n'}
+[19.423029] (demo_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""\n'}
+[19.423130] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg\n'}
+[19.423462] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg\n'}
+[19.423562] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[19.423670] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[19.423817] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh\n'}
+[19.423927] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv\n'}
+[19.424030] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash\n'}
+[19.424294] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh\n'}
+[19.424448] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh\n'}
+[19.424557] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv\n'}
+[19.424661] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv\n'}
+[19.424765] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg\n'}
+[19.424869] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake\n'}
+[19.425051] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake\n'}
+[19.425124] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml\n'}
+[19.426252] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[19.435932] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 0}
+[19.436794] (-) EventReactorShutdown: {}

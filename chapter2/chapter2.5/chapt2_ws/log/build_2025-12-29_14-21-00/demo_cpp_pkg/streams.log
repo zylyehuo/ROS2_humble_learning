@@ -1,0 +1,68 @@
+[0.064s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg
+[1.763s] -- The C compiler identification is GNU 11.4.0
+[3.667s] -- The CXX compiler identification is GNU 11.4.0
+[4.662s] -- Detecting C compiler ABI info
+[5.067s] -- Detecting C compiler ABI info - done
+[5.072s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.075s] -- Detecting C compile features
+[5.079s] -- Detecting C compile features - done
+[5.101s] -- Detecting CXX compiler ABI info
+[5.394s] -- Detecting CXX compiler ABI info - done
+[5.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.399s] -- Detecting CXX compile features
+[5.400s] -- Detecting CXX compile features - done
+[5.507s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.696s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.041s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.816s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.848s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.934s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.551s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.577s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.036s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.644s] -- Found FastRTPS: /opt/ros/humble/include  
+[21.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.197s] -- Looking for pthread.h
+[21.595s] -- Looking for pthread.h - found
+[21.595s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.877s] -- Found Threads: TRUE  
+[22.203s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.387s] -- Configured cppcheck include dirs: 
+[22.387s] -- Configured cppcheck exclude dirs and/or files: 
+[22.395s] -- Added test 'lint_cmake' to check CMake code style
+[22.408s] -- Added test 'uncrustify' to check C / C++ code style
+[22.408s] -- Configured uncrustify additional arguments: 
+[22.411s] -- Added test 'xmllint' to check XML markup files
+[22.416s] -- Configuring done
+[22.439s] -- Generating done
+[22.441s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg
+[22.450s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg
+[22.453s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[22.488s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[27.405s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[28.227s] [100%] Built target cpp_node
+[28.237s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[28.244s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg
+[28.248s] -- Install configuration: ""
+[28.249s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[28.249s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[28.250s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[28.250s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[28.250s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[28.251s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[28.252s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[28.252s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[28.252s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[28.252s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[28.252s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[28.255s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg
