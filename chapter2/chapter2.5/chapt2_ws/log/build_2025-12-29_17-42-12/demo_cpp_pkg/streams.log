@@ -1,0 +1,68 @@
+[0.021s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.145s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.741s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.759s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.851s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.854s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.120s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.193s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.193s] -- Configured cppcheck include dirs: 
+[15.193s] -- Configured cppcheck exclude dirs and/or files: 
+[15.195s] -- Added test 'lint_cmake' to check CMake code style
+[15.199s] -- Added test 'uncrustify' to check C / C++ code style
+[15.199s] -- Configured uncrustify additional arguments: 
+[15.200s] -- Added test 'xmllint' to check XML markup files
+[15.202s] -- Configuring done
+[15.231s] -- Generating done
+[15.237s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg
+[15.272s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[15.273s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[15.273s] [35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[15.273s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[15.273s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[15.282s] [  8%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[15.284s] [ 41%] Built target learn_shared_ptr
+[15.284s] [ 41%] Built target learn_auto
+[15.285s] [ 58%] Built target learn_lambda
+[15.287s] [ 75%] Built target person_node
+[15.290s] [ 91%] Built target cpp_node
+[15.686s] [01m[K/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[15.686s] [01m[K/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:25:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.686s]    25 | int main([01;35m[Kint argc[m[K, char **argv)
+[15.686s]       |          [01;35m[K~~~~^~~~[m[K
+[15.686s] [01m[K/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:25:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.686s]    25 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[15.686s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[15.829s] [100%] [32m[1mLinking CXX executable learn_functional[0m
+[16.189s] [100%] Built target learn_functional
+[16.199s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[16.209s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg
+[16.214s] -- Install configuration: ""
+[16.215s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[16.217s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[16.218s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[16.218s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[16.219s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[16.219s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_functional
+[16.220s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_functional" to ""
+[16.220s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[16.220s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[16.220s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[16.220s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[16.220s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[16.221s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[16.221s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[16.221s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[16.221s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[16.221s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[16.221s] -- Installing: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[16.221s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[16.221s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[16.222s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[16.222s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[16.224s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg

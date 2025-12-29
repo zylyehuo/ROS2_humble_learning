@@ -36,212 +36,218 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 34,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 42,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 66,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 4,
 				"line" : 66,
-				"parent" : 6
+				"parent" : 7
 			},
 			{
 				"command" : 3,
 				"file" : 3,
 				"line" : 48,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"file" : 2,
-				"parent" : 8
+				"parent" : 9
 			},
 			{
 				"command" : 2,
 				"file" : 2,
 				"line" : 47,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 1,
 				"file" : 2,
 				"line" : 29,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"command" : 0,
 				"file" : 1,
 				"line" : 105,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 48,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 1,
 				"file" : 2,
 				"line" : 43,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 0,
 				"file" : 1,
 				"line" : 105,
-				"parent" : 14
+				"parent" : 15
 			},
 			{
 				"command" : 3,
 				"file" : 3,
 				"line" : 48,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"file" : 6,
-				"parent" : 16
+				"parent" : 17
 			},
 			{
 				"command" : 7,
 				"file" : 6,
 				"line" : 20,
-				"parent" : 17
-			},
-			{
-				"command" : 0,
-				"file" : 5,
-				"line" : 70,
-				"parent" : 18
-			},
-			{
-				"command" : 0,
-				"file" : 5,
-				"line" : 87,
 				"parent" : 18
 			},
 			{
 				"command" : 0,
 				"file" : 5,
 				"line" : 70,
-				"parent" : 18
+				"parent" : 19
 			},
 			{
 				"command" : 0,
 				"file" : 5,
 				"line" : 87,
-				"parent" : 18
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 19
 			},
 			{
 				"command" : 8,
 				"file" : 6,
 				"line" : 26,
-				"parent" : 17
+				"parent" : 18
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 91,
-				"parent" : 23
+				"parent" : 24
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 91,
-				"parent" : 23
+				"parent" : 24
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 91,
-				"parent" : 23
+				"parent" : 24
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 107,
-				"parent" : 23
+				"parent" : 24
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 119,
-				"parent" : 23
+				"parent" : 24
 			},
 			{
 				"command" : 3,
 				"file" : 3,
 				"line" : 48,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"file" : 9,
-				"parent" : 29
+				"parent" : 30
 			},
 			{
 				"command" : 9,
 				"file" : 9,
 				"line" : 16,
-				"parent" : 30
+				"parent" : 31
 			},
 			{
 				"command" : 1,
 				"file" : 8,
 				"line" : 29,
-				"parent" : 31
+				"parent" : 32
 			},
 			{
 				"command" : 0,
 				"file" : 1,
 				"line" : 105,
-				"parent" : 32
+				"parent" : 33
 			},
 			{
 				"command" : 10,
 				"file" : 4,
 				"line" : 68,
-				"parent" : 6
+				"parent" : 7
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 150,
-				"parent" : 34
+				"parent" : 35
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 157,
-				"parent" : 34
+				"parent" : 35
 			}
 		]
 	},
@@ -268,7 +274,7 @@
 				"person_node"
 			],
 			"targetId" : "person_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 5,
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{
@@ -292,7 +298,7 @@
 				"learn_shared_ptr"
 			],
 			"targetId" : "learn_shared_ptr::@6890427a1f51a3e7e1df",
-			"targetIndex" : 4,
+			"targetIndex" : 5,
 			"type" : "target"
 		},
 		{
@@ -304,11 +310,23 @@
 				"learn_lambda"
 			],
 			"targetId" : "learn_lambda::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/demo_cpp_pkg",
+			"paths" : 
+			[
+				"learn_functional"
+			],
+			"targetId" : "learn_functional::@6890427a1f51a3e7e1df",
 			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{
-			"backtrace" : 12,
+			"backtrace" : 13,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
@@ -318,7 +336,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 15,
+			"backtrace" : 16,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
@@ -328,7 +346,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 19,
+			"backtrace" : 20,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg/environment",
 			"paths" : 
@@ -338,7 +356,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 21,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg/environment",
 			"paths" : 
@@ -348,7 +366,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 21,
+			"backtrace" : 22,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg/environment",
 			"paths" : 
@@ -358,7 +376,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 22,
+			"backtrace" : 23,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg/environment",
 			"paths" : 
@@ -368,7 +386,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 24,
+			"backtrace" : 25,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg",
 			"paths" : 
@@ -378,7 +396,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 25,
+			"backtrace" : 26,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg",
 			"paths" : 
@@ -388,7 +406,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 26,
+			"backtrace" : 27,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg",
 			"paths" : 
@@ -398,7 +416,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 27,
+			"backtrace" : 28,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg",
 			"paths" : 
@@ -408,7 +426,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 28,
+			"backtrace" : 29,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg",
 			"paths" : 
@@ -418,7 +436,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 33,
+			"backtrace" : 34,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
@@ -428,7 +446,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 35,
+			"backtrace" : 36,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg/cmake",
 			"paths" : 
@@ -439,7 +457,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 36,
+			"backtrace" : 37,
 			"component" : "Unspecified",
 			"destination" : "share/demo_cpp_pkg",
 			"paths" : 

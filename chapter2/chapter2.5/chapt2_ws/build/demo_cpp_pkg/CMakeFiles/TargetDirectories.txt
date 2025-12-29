@@ -5,6 +5,7 @@
 /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_auto.dir
 /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_shared_ptr.dir
 /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_lambda.dir
+/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_functional.dir
 /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/test.dir
 /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir

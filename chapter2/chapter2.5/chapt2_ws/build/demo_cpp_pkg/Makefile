@@ -262,6 +262,19 @@ learn_lambda/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/build
 .PHONY : learn_lambda/fast
 
+#=============================================================================
+# Target rules for targets named learn_functional
+
+# Build rule for target.
+learn_functional: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_functional
+.PHONY : learn_functional
+
+# fast build rule for target.
+learn_functional/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/build
+.PHONY : learn_functional/fast
+
 src/cpp_node.o: src/cpp_node.cpp.o
 .PHONY : src/cpp_node.o
 
@@ -309,6 +322,30 @@ src/learn_auto.s: src/learn_auto.cpp.s
 src/learn_auto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.s
 .PHONY : src/learn_auto.cpp.s
+
+src/learn_functional.o: src/learn_functional.cpp.o
+.PHONY : src/learn_functional.o
+
+# target to build an object file
+src/learn_functional.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o
+.PHONY : src/learn_functional.cpp.o
+
+src/learn_functional.i: src/learn_functional.cpp.i
+.PHONY : src/learn_functional.i
+
+# target to preprocess a source file
+src/learn_functional.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/src/learn_functional.cpp.i
+.PHONY : src/learn_functional.cpp.i
+
+src/learn_functional.s: src/learn_functional.cpp.s
+.PHONY : src/learn_functional.s
+
+# target to generate assembly for a file
+src/learn_functional.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/src/learn_functional.cpp.s
+.PHONY : src/learn_functional.cpp.s
 
 src/learn_lambda.o: src/learn_lambda.cpp.o
 .PHONY : src/learn_lambda.o
@@ -399,6 +436,7 @@ help:
 	@echo "... uninstall"
 	@echo "... cpp_node"
 	@echo "... learn_auto"
+	@echo "... learn_functional"
 	@echo "... learn_lambda"
 	@echo "... learn_shared_ptr"
 	@echo "... person_node"
@@ -408,6 +446,9 @@ help:
 	@echo "... src/learn_auto.o"
 	@echo "... src/learn_auto.i"
 	@echo "... src/learn_auto.s"
+	@echo "... src/learn_functional.o"
+	@echo "... src/learn_functional.i"
+	@echo "... src/learn_functional.s"
 	@echo "... src/learn_lambda.o"
 	@echo "... src/learn_lambda.i"
 	@echo "... src/learn_lambda.s"

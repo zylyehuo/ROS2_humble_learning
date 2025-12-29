@@ -68,6 +68,7 @@ all: CMakeFiles/person_node.dir/all
 all: CMakeFiles/learn_auto.dir/all
 all: CMakeFiles/learn_shared_ptr.dir/all
 all: CMakeFiles/learn_lambda.dir/all
+all: CMakeFiles/learn_functional.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +83,7 @@ clean: CMakeFiles/person_node.dir/clean
 clean: CMakeFiles/learn_auto.dir/clean
 clean: CMakeFiles/learn_shared_ptr.dir/clean
 clean: CMakeFiles/learn_lambda.dir/clean
+clean: CMakeFiles/learn_functional.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -169,7 +171,7 @@ CMakeFiles/cpp_node.dir/clean:
 CMakeFiles/person_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=9,10 "Built target person_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=11,12 "Built target person_node"
 .PHONY : CMakeFiles/person_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +223,7 @@ CMakeFiles/learn_auto.dir/clean:
 CMakeFiles/learn_shared_ptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_shared_ptr.dir/build.make CMakeFiles/learn_shared_ptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_shared_ptr.dir/build.make CMakeFiles/learn_shared_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target learn_shared_ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=9,10 "Built target learn_shared_ptr"
 .PHONY : CMakeFiles/learn_shared_ptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +249,7 @@ CMakeFiles/learn_shared_ptr.dir/clean:
 CMakeFiles/learn_lambda.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target learn_lambda"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target learn_lambda"
 .PHONY : CMakeFiles/learn_lambda.dir/all
 
 # Build rule for subdir invocation for target.
@@ -265,6 +267,32 @@ learn_lambda: CMakeFiles/learn_lambda.dir/rule
 CMakeFiles/learn_lambda.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/clean
 .PHONY : CMakeFiles/learn_lambda.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/learn_functional.dir
+
+# All Build rule for target.
+CMakeFiles/learn_functional.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target learn_functional"
+.PHONY : CMakeFiles/learn_functional.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learn_functional.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learn_functional.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zylyehuo/ROS2_learning/chapter2/chapter2.5/chapt2_ws/build/demo_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/learn_functional.dir/rule
+
+# Convenience name for target.
+learn_functional: CMakeFiles/learn_functional.dir/rule
+.PHONY : learn_functional
+
+# clean rule for target.
+CMakeFiles/learn_functional.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_functional.dir/build.make CMakeFiles/learn_functional.dir/clean
+.PHONY : CMakeFiles/learn_functional.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

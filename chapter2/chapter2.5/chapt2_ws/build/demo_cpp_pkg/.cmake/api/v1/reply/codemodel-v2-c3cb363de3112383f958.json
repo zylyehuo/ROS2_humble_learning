@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-fd467aa77e287c311ac4.json",
+					"jsonFile" : "directory-.-23981fccc4d3e1629af1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -22,7 +22,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -43,7 +44,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -52,7 +54,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cpp_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpp_node-02fde43d8f2a218427c3.json",
+					"jsonFile" : "target-cpp_node-4a10867ec69951ef9651.json",
 					"name" : "cpp_node",
 					"projectIndex" : 0
 				},
@@ -66,28 +68,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_auto::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_auto-3470ae376103c0b8f7f8.json",
+					"jsonFile" : "target-learn_auto-4217f65177fa940fdced.json",
 					"name" : "learn_auto",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "learn_functional::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_functional-2f0caaf910b585a064e8.json",
+					"name" : "learn_functional",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "learn_lambda::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_lambda-130b11005148a76dbf52.json",
+					"jsonFile" : "target-learn_lambda-67f64af41db8a0baff6b.json",
 					"name" : "learn_lambda",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_shared_ptr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_shared_ptr-b7d78494a8f74449fb9d.json",
+					"jsonFile" : "target-learn_shared_ptr-5ef144472310b25bfd93.json",
 					"name" : "learn_shared_ptr",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "person_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-person_node-c4c8f6664a92e394b925.json",
+					"jsonFile" : "target-person_node-f490d2742efc3697fed2.json",
 					"name" : "person_node",
 					"projectIndex" : 0
 				},

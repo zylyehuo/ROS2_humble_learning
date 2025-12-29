@@ -17,6 +17,7 @@ add_executable(person_node src/person_node.cpp)
 add_executable(learn_auto src/learn_auto.cpp)
 add_executable(learn_shared_ptr src/learn_shared_ptr.cpp)
 add_executable(learn_lambda src/learn_lambda.cpp)
+add_executable(learn_functional src/learn_functional.cpp)
 
 # message(STATUS ${rclcpp_INCLUDE_DIRS})  # 头文件及 rclcpp 依赖的头文件
 # message(STATUS ${rclcpp_LIBRARIES})  # 库文件及 rclcpp 依赖的库文件
@@ -30,6 +31,7 @@ ament_target_dependencies(person_node rclcpp)
 ament_target_dependencies(learn_auto rclcpp)
 ament_target_dependencies(learn_shared_ptr rclcpp)
 ament_target_dependencies(learn_lambda rclcpp)
+ament_target_dependencies(learn_functional rclcpp)
 
 install(TARGETS cpp_node           # 安装命令
   DESTINATION lib/${PROJECT_NAME}  # 拷贝可执行文件的目标地址
@@ -48,6 +50,10 @@ install(TARGETS learn_shared_ptr
 )
 
 install(TARGETS learn_lambda
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS learn_functional
   DESTINATION lib/${PROJECT_NAME}
 )
 
