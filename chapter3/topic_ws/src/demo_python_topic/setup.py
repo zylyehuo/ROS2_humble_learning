@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             # 可执行文件名字 = 功能包名字.源代码名字:主函数入口
-            'novel_pub_node = demo_python_topic.novel_pub_node:main'
+            'novel_pub_node = demo_python_topic.novel_pub_node:main',
+            'novel_sub_node = demo_python_topic.novel_sub_node:main'
         ],
     },
 )
