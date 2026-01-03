@@ -1,0 +1,38 @@
+[1.573s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_publisher': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build install --record /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.780s] running egg_info
+[1.781s] creating ../../build/status_publisher/status_publisher.egg-info
+[1.781s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[1.782s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[1.782s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[1.782s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[1.782s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[1.782s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.784s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.784s] adding license file 'LICENSE'
+[1.784s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.785s] running build
+[1.785s] running build_py
+[1.785s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build
+[1.785s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build/lib
+[1.785s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.786s] copying status_publisher/__init__.py -> /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.786s] copying status_publisher/sys_status_pub.py -> /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.786s] running install
+[1.786s] running install_lib
+[1.787s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.787s] copying /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.787s] copying /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.788s] byte-compiling /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[1.788s] byte-compiling /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[1.789s] running install_data
+[1.789s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/share/ament_index
+[1.789s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[1.790s] creating /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[1.790s] copying resource/status_publisher -> /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[1.790s] copying package.xml -> /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/share/status_publisher
+[1.790s] running install_egg_info
+[1.792s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[1.794s] running install_scripts
+[1.816s] Installing sys_status_pub script to /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[1.816s] writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/install.log'
+[1.839s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_publisher' returned '0': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/build install --record /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
