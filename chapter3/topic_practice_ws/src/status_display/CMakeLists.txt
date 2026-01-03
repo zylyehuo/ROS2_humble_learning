@@ -14,6 +14,9 @@ find_package(Qt5 REQUIRED COMPONENTS Widgets)
 add_executable(hello_qt src/hello_qt.cpp)
 target_link_libraries(hello_qt Qt5::Widgets)  # Qt5 只支持原生的添加依赖方式， ament_target_dependencies 是 ROS 提供的简洁方式
 
+add_executable(sys_status_display src/sys_status_display.cpp)
+target_link_libraries(sys_status_display Qt5::Widgets)
+ament_target_dependencies(sys_status_display rclcpp status_interfaces)  # ROS中的依赖
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -28,6 +31,10 @@ if(BUILD_TESTING)
 endif()
 
 install(TARGETS hello_qt
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS sys_status_display
   DESTINATION lib/${PROJECT_NAME}
 )
 
