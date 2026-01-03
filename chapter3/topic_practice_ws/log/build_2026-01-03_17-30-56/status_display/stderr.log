@@ -1,0 +1,22 @@
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:9:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQString::fromStdString()[m[K’
+    9 |     QString* message = [01;31m[KQString::fromStdString()[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+                 from [01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1555:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::fromStdString(const string&)[m[K’
+ 1555 | inline QString [01;36m[KQString[m[K::fromStdString(const std::string &s)
+      |                [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1555:16:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[Klable[m[K’?
+   11 |     [01;31m[Klabel[m[K->setText(message);
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Klable[m[K
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:8:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    8 |     QLabel* [01;35m[Klable[m[K = new QLabel();
+      |             [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

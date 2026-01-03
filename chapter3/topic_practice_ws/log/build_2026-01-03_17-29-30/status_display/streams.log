@@ -1,0 +1,54 @@
+[0.185s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_display
+[0.614s] -- The C compiler identification is GNU 11.4.0
+[1.921s] -- The CXX compiler identification is GNU 11.4.0
+[2.812s] -- Detecting C compiler ABI info
+[3.076s] -- Detecting C compiler ABI info - done
+[3.081s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.083s] -- Detecting C compile features
+[3.083s] -- Detecting C compile features - done
+[3.086s] -- Detecting CXX compiler ABI info
+[3.359s] -- Detecting CXX compiler ABI info - done
+[3.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.364s] -- Detecting CXX compile features
+[3.364s] -- Detecting CXX compile features - done
+[3.377s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.485s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.576s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[3.936s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.942s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.952s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.042s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.045s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.258s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.865s] -- Found FastRTPS: /opt/ros/humble/include  
+[17.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.579s] -- Looking for pthread.h
+[17.877s] -- Looking for pthread.h - found
+[17.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.186s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.187s] -- Found Threads: TRUE  
+[18.258s] -- Found status_interfaces: 0.0.0 (/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[18.514s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.587s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.587s] -- Configured cppcheck include dirs: 
+[18.587s] -- Configured cppcheck exclude dirs and/or files: 
+[18.588s] -- Added test 'lint_cmake' to check CMake code style
+[18.590s] -- Added test 'uncrustify' to check C / C++ code style
+[18.590s] -- Configured uncrustify additional arguments: 
+[18.591s] -- Added test 'xmllint' to check XML markup files
+[18.592s] -- Configuring done
+[18.604s] -- Generating done
+[18.606s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display
+[18.615s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_display
+[18.617s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display -- -j16 -l16
+[18.658s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[18.826s] [01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KQLable: No such file or directory
+[18.826s]     2 | #include [01;31m[K<QLable>[m[K
+[18.826s]       |          [01;31m[K^~~~~~~~[m[K
+[18.826s] compilation terminated.
+[18.827s] gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+[18.827s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+[18.827s] gmake: *** [Makefile:146: all] Error 2
+[18.830s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/build/status_display -- -j16 -l16

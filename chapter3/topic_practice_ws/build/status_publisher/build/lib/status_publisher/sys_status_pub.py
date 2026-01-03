@@ -4,6 +4,11 @@ from rclpy.node import Node
 import psutil
 import platform
 
+"""
+要记得先 source ./install/setup.bash
+再 ros2 topic echo /sys_status
+"""
+
 class SysStatusPub(Node):
     def __init__(self, node_name):
         super().__init__(node_name)

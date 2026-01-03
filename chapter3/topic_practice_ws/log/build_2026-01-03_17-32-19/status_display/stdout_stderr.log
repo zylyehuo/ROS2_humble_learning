@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:9:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQString[m[K’ to ‘[01m[KQString*[m[K’ in initialization
+    9 |     QString* message = [01;31m[KQString::fromStdString("Hello Qt")[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+      |                                              [01;31m[K|[m[K
+      |                                              [01;31m[KQString[m[K
+[01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:11:20:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQString*[m[K’ to ‘[01m[Kconst QString&[m[K’
+   11 |     label->setText([01;31m[Kmessage[m[K);
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [01;31m[K|[m[K
+      |                    [01;31m[KQString*[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:1[m[K,
+                 from [01m[K/home/zylyehuo/ROS2_learning/chapter3/topic_practice_ws/src/status_display/src/hello_qt.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:136:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLabel::setText(const QString&)[m[K’
+  136 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
