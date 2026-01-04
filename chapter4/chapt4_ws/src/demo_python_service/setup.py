@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name+"/resource", ['resource/default.jpg']),  # 将 resource 文件夹下的图片也在编译后拷贝到编译后的 install 目录下
+        ('share/' + package_name+"/resource", ['resource/default.jpg', 'resource/test1.jpg']),  # 将 resource 文件夹下的图片也在编译后拷贝到编译后的 install 目录下
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -26,6 +26,8 @@ setup(
     entry_points={
         'console_scripts': [
             "learn_face_detect = demo_python_service.learn_face_detect:main",
+            "face_detect_node = demo_python_service.face_detect_node:main",
+            "face_detect_client_node = demo_python_service.face_detect_client_node:main",
         ],
     },
 )
