@@ -67,6 +67,7 @@ all: CMakeFiles/turtle_control.dir/all
 all: CMakeFiles/patrol_client.dir/all
 all: CMakeFiles/turtle_control_param.dir/all
 all: CMakeFiles/turtle_control_param_callback.dir/all
+all: CMakeFiles/patrol_client_set_other.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ clean: CMakeFiles/turtle_control.dir/clean
 clean: CMakeFiles/patrol_client.dir/clean
 clean: CMakeFiles/turtle_control_param.dir/clean
 clean: CMakeFiles/turtle_control_param_callback.dir/clean
+clean: CMakeFiles/patrol_client_set_other.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -141,7 +143,7 @@ CMakeFiles/demo_cpp_service_uninstall.dir/clean:
 CMakeFiles/turtle_control.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=3,4 "Built target turtle_control"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=5,6 "Built target turtle_control"
 .PHONY : CMakeFiles/turtle_control.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,7 +195,7 @@ CMakeFiles/patrol_client.dir/clean:
 CMakeFiles/turtle_control_param.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param.dir/build.make CMakeFiles/turtle_control_param.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param.dir/build.make CMakeFiles/turtle_control_param.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=5,6 "Built target turtle_control_param"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=7,8 "Built target turtle_control_param"
 .PHONY : CMakeFiles/turtle_control_param.dir/all
 
 # Build rule for subdir invocation for target.
@@ -219,7 +221,7 @@ CMakeFiles/turtle_control_param.dir/clean:
 CMakeFiles/turtle_control_param_callback.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=7,8 "Built target turtle_control_param_callback"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=9,10 "Built target turtle_control_param_callback"
 .PHONY : CMakeFiles/turtle_control_param_callback.dir/all
 
 # Build rule for subdir invocation for target.
@@ -237,6 +239,32 @@ turtle_control_param_callback: CMakeFiles/turtle_control_param_callback.dir/rule
 CMakeFiles/turtle_control_param_callback.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/clean
 .PHONY : CMakeFiles/turtle_control_param_callback.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/patrol_client_set_other.dir
+
+# All Build rule for target.
+CMakeFiles/patrol_client_set_other.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles --progress-num=3,4 "Built target patrol_client_set_other"
+.PHONY : CMakeFiles/patrol_client_set_other.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/patrol_client_set_other.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/patrol_client_set_other.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles 0
+.PHONY : CMakeFiles/patrol_client_set_other.dir/rule
+
+# Convenience name for target.
+patrol_client_set_other: CMakeFiles/patrol_client_set_other.dir/rule
+.PHONY : patrol_client_set_other
+
+# clean rule for target.
+CMakeFiles/patrol_client_set_other.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/clean
+.PHONY : CMakeFiles/patrol_client_set_other.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

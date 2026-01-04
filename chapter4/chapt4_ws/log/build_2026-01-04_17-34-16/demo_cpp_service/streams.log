@@ -1,0 +1,57 @@
+[0.379s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.408s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found chapt4_interfaces: 0.0.0 (/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.988s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.993s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.006s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.150s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.205s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.210s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.071s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[14.126s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.195s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.195s] -- Configured cppcheck include dirs: 
+[14.195s] -- Configured cppcheck exclude dirs and/or files: 
+[14.196s] -- Added test 'lint_cmake' to check CMake code style
+[14.197s] -- Added test 'uncrustify' to check C / C++ code style
+[14.197s] -- Configured uncrustify additional arguments: 
+[14.198s] -- Added test 'xmllint' to check XML markup files
+[14.200s] -- Configuring done
+[14.231s] -- Generating done
+[14.241s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service
+[14.268s] [35m[1mConsolidate compiler generated dependencies of target patrol_client[0m
+[14.268s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[14.268s] [35m[1mConsolidate compiler generated dependencies of target turtle_control_param[0m
+[14.268s] [35m[1mConsolidate compiler generated dependencies of target turtle_control_param_callback[0m
+[14.276s] [ 10%] [32mBuilding CXX object CMakeFiles/patrol_client_set_other.dir/src/patrol_client_set_other.cpp.o[0m
+[14.282s] [ 50%] Built target turtle_control_param_callback
+[14.282s] [ 50%] Built target patrol_client
+[14.282s] [ 70%] Built target turtle_control_param
+[14.284s] [ 90%] Built target turtle_control
+[16.580s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client_set_other.cpp:[m[K In member function ‘[01m[Krcl_interfaces::srv::SetParameters_Response_<std::allocator<void> >::SharedPtr PatrolClient::call_set_parameter(const Parameter&)[m[K’:
+[16.580s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client_set_other.cpp:69:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Krcl_interfaces::srv::SetParameters_Response_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rcl_interfaces::srv::SetParameters_Response_<std::allocator<void> > >[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[16.580s]    69 |                 [01;31m[Kreturn[m[K;
+[16.580s]       |                 [01;31m[K^~~~~~[m[K
+[16.589s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.590s]                  from [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client_set_other.cpp:1[m[K:
+[16.590s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client_set_other.cpp:[m[K In member function ‘[01m[Kvoid PatrolClient::update_server_param_k(double)[m[K’:
+[16.590s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client_set_other.cpp:107:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+[16.590s]   107 |             RCLCPP_INFO(this->get_logger(), "参数更新失败，原因：%s", [01;31m[Kresult[m[K.reason.c_str());
+[16.590s]       |                                                                       [01;31m[K^~~~~~[m[K
+[17.366s] gmake[2]: *** [CMakeFiles/patrol_client_set_other.dir/build.make:76: CMakeFiles/patrol_client_set_other.dir/src/patrol_client_set_other.cpp.o] Error 1
+[17.366s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/patrol_client_set_other.dir/all] Error 2
+[17.366s] gmake: *** [Makefile:146: all] Error 2
+[17.370s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16

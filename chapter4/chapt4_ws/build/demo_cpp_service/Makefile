@@ -249,6 +249,19 @@ turtle_control_param_callback/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/build
 .PHONY : turtle_control_param_callback/fast
 
+#=============================================================================
+# Target rules for targets named patrol_client_set_other
+
+# Build rule for target.
+patrol_client_set_other: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 patrol_client_set_other
+.PHONY : patrol_client_set_other
+
+# fast build rule for target.
+patrol_client_set_other/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/build
+.PHONY : patrol_client_set_other/fast
+
 src/patrol_client.o: src/patrol_client.cpp.o
 .PHONY : src/patrol_client.o
 
@@ -272,6 +285,30 @@ src/patrol_client.s: src/patrol_client.cpp.s
 src/patrol_client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.s
 .PHONY : src/patrol_client.cpp.s
+
+src/patrol_client_set_other.o: src/patrol_client_set_other.cpp.o
+.PHONY : src/patrol_client_set_other.o
+
+# target to build an object file
+src/patrol_client_set_other.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/src/patrol_client_set_other.cpp.o
+.PHONY : src/patrol_client_set_other.cpp.o
+
+src/patrol_client_set_other.i: src/patrol_client_set_other.cpp.i
+.PHONY : src/patrol_client_set_other.i
+
+# target to preprocess a source file
+src/patrol_client_set_other.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/src/patrol_client_set_other.cpp.i
+.PHONY : src/patrol_client_set_other.cpp.i
+
+src/patrol_client_set_other.s: src/patrol_client_set_other.cpp.s
+.PHONY : src/patrol_client_set_other.s
+
+# target to generate assembly for a file
+src/patrol_client_set_other.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client_set_other.dir/build.make CMakeFiles/patrol_client_set_other.dir/src/patrol_client_set_other.cpp.s
+.PHONY : src/patrol_client_set_other.cpp.s
 
 src/turtle_control.o: src/turtle_control.cpp.o
 .PHONY : src/turtle_control.o
@@ -361,12 +398,16 @@ help:
 	@echo "... demo_cpp_service_uninstall"
 	@echo "... uninstall"
 	@echo "... patrol_client"
+	@echo "... patrol_client_set_other"
 	@echo "... turtle_control"
 	@echo "... turtle_control_param"
 	@echo "... turtle_control_param_callback"
 	@echo "... src/patrol_client.o"
 	@echo "... src/patrol_client.i"
 	@echo "... src/patrol_client.s"
+	@echo "... src/patrol_client_set_other.o"
+	@echo "... src/patrol_client_set_other.i"
+	@echo "... src/patrol_client_set_other.s"
 	@echo "... src/turtle_control.o"
 	@echo "... src/turtle_control.i"
 	@echo "... src/turtle_control.s"

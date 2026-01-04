@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol_client_set_other[0m
+[ 40%] Built target patrol_client
+[ 40%] Built target turtle_control_param
+[ 60%] Built target turtle_control_param_callback
+[ 80%] Built target turtle_control
+[ 90%] [32mBuilding CXX object CMakeFiles/patrol_client_set_other.dir/src/patrol_client_set_other.cpp.o[0m

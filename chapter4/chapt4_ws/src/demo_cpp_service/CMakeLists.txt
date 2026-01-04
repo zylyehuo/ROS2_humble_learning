@@ -24,6 +24,9 @@ ament_target_dependencies(turtle_control_param chapt4_interfaces rclcpp geometry
 add_executable(turtle_control_param_callback src/turtle_control_param_callback.cpp)
 ament_target_dependencies(turtle_control_param_callback chapt4_interfaces rclcpp geometry_msgs turtlesim)
 
+add_executable(patrol_client_set_other src/patrol_client_set_other.cpp)
+ament_target_dependencies(patrol_client_set_other chapt4_interfaces rclcpp)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -36,7 +39,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(TARGETS turtle_control patrol_client turtle_control_param turtle_control_param_callback
+install(TARGETS turtle_control patrol_client turtle_control_param turtle_control_param_callback patrol_client_set_other
   DESTINATION lib/${PROJECT_NAME}
 )
 
