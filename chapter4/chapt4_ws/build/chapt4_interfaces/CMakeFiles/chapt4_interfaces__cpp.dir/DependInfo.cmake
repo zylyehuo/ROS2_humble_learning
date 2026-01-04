@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__struct.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__traits.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__builder.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__struct.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__traits.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__type_support.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/patrol.hpp" "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   )
 
 

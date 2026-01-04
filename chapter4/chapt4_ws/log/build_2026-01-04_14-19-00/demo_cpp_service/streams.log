@@ -1,0 +1,98 @@
+[0.187s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.404s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.404s] -- Found chapt4_interfaces: 0.0.0 (/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.657s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.659s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.663s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.741s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.763s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.929s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[13.954s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.007s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.007s] -- Configured cppcheck include dirs: 
+[14.008s] -- Configured cppcheck exclude dirs and/or files: 
+[14.008s] -- Added test 'lint_cmake' to check CMake code style
+[14.008s] -- Added test 'uncrustify' to check C / C++ code style
+[14.008s] -- Configured uncrustify additional arguments: 
+[14.008s] -- Added test 'xmllint' to check XML markup files
+[14.009s] -- Configuring done
+[14.021s] -- Generating done
+[14.025s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service
+[14.049s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[14.057s] [ 25%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[14.062s] [ 75%] Built target turtle_control
+[15.988s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.989s]                  from [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:1[m[K:
+[15.989s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In lambda function:
+[15.989s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:36:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.989s]    36 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"目标点设置为：%d, %d"[m[K, [32m[Krequest->target_x[m[K, request->target_y);
+[15.989s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+[15.989s]       |                                                                              [32m[K|[m[K
+[15.989s]       |                                                                              [32m[Kdouble[m[K
+[15.989s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:36:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.989s]    36 |             RCLCPP_INFO(this->get_logger(), "目标点设置为：[01;36m[K%d[m[K, %d", request->target_x, request->target_y);
+[15.989s]       |                                                            [01;36m[K~^[m[K
+[15.989s]       |                                                             [01;36m[K|[m[K
+[15.989s]       |                                                             [01;36m[Kint[m[K
+[15.989s]       |                                                            [32m[K%f[m[K
+[15.989s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.990s]                  from [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:1[m[K:
+[15.990s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:36:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.990s]    36 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"目标点设置为：%d, %d"[m[K, request->target_x, [32m[Krequest->target_y[m[K);
+[15.990s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K                     [32m[K~~~~~~~~~~~~~~~~~[m[K
+[15.990s]       |                                                                                                 [32m[K|[m[K
+[15.990s]       |                                                                                                 [32m[Kdouble[m[K
+[15.990s] [01m[K/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:36:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.990s]    36 |             RCLCPP_INFO(this->get_logger(), "目标点设置为：%d, [01;36m[K%d[m[K", request->target_x, request->target_y);
+[15.990s]       |                                                                [01;36m[K~^[m[K
+[15.990s]       |                                                                 [01;36m[K|[m[K
+[15.990s]       |                                                                 [01;36m[Kint[m[K
+[15.990s]       |                                                                [32m[K%f[m[K
+[17.044s] [100%] [32m[1mLinking CXX executable patrol_client[0m
+[17.390s] [100%] Built target patrol_client
+[17.399s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[17.401s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service
+[17.408s] -- Install configuration: ""
+[17.408s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[17.408s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[17.409s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client" to ""
+[17.409s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[17.409s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[17.409s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[17.409s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[17.409s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[17.409s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[17.410s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[17.410s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[17.410s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[17.412s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service

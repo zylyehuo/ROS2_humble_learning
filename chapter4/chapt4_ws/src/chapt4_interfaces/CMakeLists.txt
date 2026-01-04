@@ -13,6 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 # cmake 函数，来自于 rosidl_default_generators，用于将 msg 等消息接口定义文件转换成库或头文件类
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FaceDetector.srv"  # 消息接口的相对路径
+  "srv/Patrol.srv"
   DEPENDENCIES sensor_msgs  # 添加消息接口中所需要的依赖
 )
 
