@@ -28,6 +28,9 @@ class FaceDetectNode(Node):
         
         self.add_on_set_parameters_callback(self.parameters_callback)
         
+        # 设置自身节点参数的方法
+        # self.set_parameters([rclpy.Parameter('_model', rclpy.Parameter.Type.STRING, 'cnn')])
+        
     def parameters_callback(self, parameters):
         for parameter in parameters:
             self.get_logger().info(f"{parameter.name}->{parameter.value}")

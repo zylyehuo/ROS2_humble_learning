@@ -1,0 +1,37 @@
+[0.181s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.379s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found chapt4_interfaces: 0.0.0 (/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.733s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.737s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.748s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.863s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.910s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.913s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.932s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.982s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[13.027s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[13.027s]   add_executable cannot create target "turtle_control" because another target
+[13.027s]   with the same name already exists.  The existing target is an executable
+[13.027s]   created in source directory
+[13.027s]   "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_cpp_service".
+[13.027s]   See documentation for policy CMP0002 for more details.
+[13.027s] 
+[13.027s] [0m
+[13.030s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.087s] [31mCMake Error at CMakeLists.txt:36 (install):
+[13.087s]   install TARGETS given target "patrol_client" which does not exist.
+[13.087s] 
+[13.087s] [0m
+[13.093s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.093s] -- Configured cppcheck include dirs: 
+[13.093s] -- Configured cppcheck exclude dirs and/or files: 
+[13.094s] -- Added test 'lint_cmake' to check CMake code style
+[13.095s] -- Added test 'uncrustify' to check C / C++ code style
+[13.095s] -- Configured uncrustify additional arguments: 
+[13.096s] -- Added test 'xmllint' to check XML markup files
+[13.098s] -- Configuring incomplete, errors occurred!
+[13.098s] See also "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service/CMakeFiles/CMakeOutput.log".
+[13.105s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[13.107s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16

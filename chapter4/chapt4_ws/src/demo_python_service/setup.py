@@ -30,6 +30,7 @@ setup(
             "face_detect_client_node = demo_python_service.face_detect_client_node:main",
             "face_detect_param_node = demo_python_service.face_detect_param_node:main",
             "face_detect_param_callback_node = demo_python_service.face_detect_param_callback_node:main",
+            "face_detect_client_callback_node = demo_python_service.face_detect_client_callback_node:main",
         ],
     },
 )

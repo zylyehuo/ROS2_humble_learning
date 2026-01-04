@@ -801,4 +801,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/demo_cpp_service_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/turtle_control.dir/DependInfo.cmake"
   "CMakeFiles/patrol_client.dir/DependInfo.cmake"
+  "CMakeFiles/turtle_control_param.dir/DependInfo.cmake"
+  "CMakeFiles/turtle_control_param_callback.dir/DependInfo.cmake"
   )

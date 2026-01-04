@@ -223,6 +223,32 @@ patrol_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/build
 .PHONY : patrol_client/fast
 
+#=============================================================================
+# Target rules for targets named turtle_control_param
+
+# Build rule for target.
+turtle_control_param: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_control_param
+.PHONY : turtle_control_param
+
+# fast build rule for target.
+turtle_control_param/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param.dir/build.make CMakeFiles/turtle_control_param.dir/build
+.PHONY : turtle_control_param/fast
+
+#=============================================================================
+# Target rules for targets named turtle_control_param_callback
+
+# Build rule for target.
+turtle_control_param_callback: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_control_param_callback
+.PHONY : turtle_control_param_callback
+
+# fast build rule for target.
+turtle_control_param_callback/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/build
+.PHONY : turtle_control_param_callback/fast
+
 src/patrol_client.o: src/patrol_client.cpp.o
 .PHONY : src/patrol_client.o
 
@@ -271,6 +297,54 @@ src/turtle_control.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/src/turtle_control.cpp.s
 .PHONY : src/turtle_control.cpp.s
 
+src/turtle_control_param.o: src/turtle_control_param.cpp.o
+.PHONY : src/turtle_control_param.o
+
+# target to build an object file
+src/turtle_control_param.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param.dir/build.make CMakeFiles/turtle_control_param.dir/src/turtle_control_param.cpp.o
+.PHONY : src/turtle_control_param.cpp.o
+
+src/turtle_control_param.i: src/turtle_control_param.cpp.i
+.PHONY : src/turtle_control_param.i
+
+# target to preprocess a source file
+src/turtle_control_param.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param.dir/build.make CMakeFiles/turtle_control_param.dir/src/turtle_control_param.cpp.i
+.PHONY : src/turtle_control_param.cpp.i
+
+src/turtle_control_param.s: src/turtle_control_param.cpp.s
+.PHONY : src/turtle_control_param.s
+
+# target to generate assembly for a file
+src/turtle_control_param.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param.dir/build.make CMakeFiles/turtle_control_param.dir/src/turtle_control_param.cpp.s
+.PHONY : src/turtle_control_param.cpp.s
+
+src/turtle_control_param_callback.o: src/turtle_control_param_callback.cpp.o
+.PHONY : src/turtle_control_param_callback.o
+
+# target to build an object file
+src/turtle_control_param_callback.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/src/turtle_control_param_callback.cpp.o
+.PHONY : src/turtle_control_param_callback.cpp.o
+
+src/turtle_control_param_callback.i: src/turtle_control_param_callback.cpp.i
+.PHONY : src/turtle_control_param_callback.i
+
+# target to preprocess a source file
+src/turtle_control_param_callback.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/src/turtle_control_param_callback.cpp.i
+.PHONY : src/turtle_control_param_callback.cpp.i
+
+src/turtle_control_param_callback.s: src/turtle_control_param_callback.cpp.s
+.PHONY : src/turtle_control_param_callback.s
+
+# target to generate assembly for a file
+src/turtle_control_param_callback.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_param_callback.dir/build.make CMakeFiles/turtle_control_param_callback.dir/src/turtle_control_param_callback.cpp.s
+.PHONY : src/turtle_control_param_callback.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... uninstall"
 	@echo "... patrol_client"
 	@echo "... turtle_control"
+	@echo "... turtle_control_param"
+	@echo "... turtle_control_param_callback"
 	@echo "... src/patrol_client.o"
 	@echo "... src/patrol_client.i"
 	@echo "... src/patrol_client.s"
 	@echo "... src/turtle_control.o"
 	@echo "... src/turtle_control.i"
 	@echo "... src/turtle_control.s"
+	@echo "... src/turtle_control_param.o"
+	@echo "... src/turtle_control_param.i"
+	@echo "... src/turtle_control_param.s"
+	@echo "... src/turtle_control_param_callback.o"
+	@echo "... src/turtle_control_param_callback.i"
+	@echo "... src/turtle_control_param_callback.s"
 .PHONY : help
 
 

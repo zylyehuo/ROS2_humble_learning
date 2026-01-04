@@ -1,0 +1,54 @@
+[0.215s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.232s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found chapt4_interfaces: 0.0.0 (/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.649s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.650s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.655s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.725s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.749s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.750s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.039s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.064s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[13.090s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.141s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.141s] -- Configured cppcheck include dirs: 
+[13.141s] -- Configured cppcheck exclude dirs and/or files: 
+[13.141s] -- Added test 'lint_cmake' to check CMake code style
+[13.142s] -- Added test 'uncrustify' to check C / C++ code style
+[13.142s] -- Configured uncrustify additional arguments: 
+[13.143s] -- Added test 'xmllint' to check XML markup files
+[13.143s] -- Configuring done
+[13.162s] -- Generating done
+[13.168s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service
+[13.191s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[13.191s] [35m[1mConsolidate compiler generated dependencies of target patrol_client[0m
+[13.197s] [ 16%] [32mBuilding CXX object CMakeFiles/turtle_control_param.dir/src/turtle_control_param.cpp.o[0m
+[13.203s] [ 83%] Built target turtle_control
+[13.203s] [ 83%] Built target patrol_client
+[20.004s] [100%] [32m[1mLinking CXX executable turtle_control_param[0m
+[20.591s] [100%] Built target turtle_control_param
+[20.600s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[20.601s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service
+[20.606s] -- Install configuration: ""
+[20.606s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[20.606s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[20.606s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control_param
+[20.609s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control_param" to ""
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[20.609s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[20.609s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[20.609s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[20.610s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[20.610s] -- Installing: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[20.610s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[20.610s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[20.610s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[20.610s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[20.611s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_cpp_service
