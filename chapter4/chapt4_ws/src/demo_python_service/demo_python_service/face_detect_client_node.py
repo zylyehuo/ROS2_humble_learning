@@ -18,7 +18,7 @@ class FaceDetectClientNode(Node):
         self._image = cv2.imread(self._default_image_path)
         self.get_logger().info(f"人脸检测客户端已经启动")
         
-    def send_request(self,):
+    def send_request(self):
         # 判断服务端是否在线
         while self._face_detect_cli.wait_for_service(timeout_sec=1.0) == False:
             self.get_logger().info(f"等待服务端上线")
@@ -33,14 +33,26 @@ class FaceDetectClientNode(Node):
         # while not future.done():
         #     time.sleep(1.0)  # 休眠当前进程，等待服务完成，造成当前进程无法再接收来自服务端的返回，导致永远没有办法完成【future.done() 返回 True】
         
-        rclpy.spin_until_future_complete(self, future)  # 等待服务端返回响应
+        # =========================================================异步的实现方法=========================================================
+        # rclpy.spin_until_future_complete(self, future)  # 等待服务端返回响应
         
+        # # 获取任务执行结果（获取响应）
+        # response = future.result()
+        # self.get_logger().info(f"接收到响应，共检测到{response.number}张人脸，耗时:{response.use_time}秒")
+        
+        # self.show_response(response)
+        # ================================================================================================================================
+        
+        # =======================================================回调函数的实现方法=========================================================        
+        future.add_done_callback(self.result_callback)
+        # ================================================================================================================================
+        
+    def result_callback(self, result_future):
         # 获取任务执行结果（获取响应）
-        response = future.result()
+        response = result_future.result()
         self.get_logger().info(f"接收到响应，共检测到{response.number}张人脸，耗时:{response.use_time}秒")
-        
         self.show_response(response)
-        
+            
     def show_response(self, response):
         for ind in range(response.number):
             top = response.top[ind]
