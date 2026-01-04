@@ -1,0 +1,28 @@
+[0.912s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_python_service': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/build install --record /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.100s] running egg_info
+[1.101s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.101s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.101s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.101s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.101s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.103s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.103s] adding license file 'LICENSE'
+[1.104s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.104s] running build
+[1.104s] running build_py
+[1.104s] copying demo_python_service/face_detect_param_node.py -> /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.104s] running install
+[1.105s] running install_lib
+[1.105s] copying /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_param_node.py -> /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.106s] byte-compiling /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_param_node.py to face_detect_param_node.cpython-310.pyc
+[1.106s] running install_data
+[1.107s] running install_egg_info
+[1.108s] removing '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.108s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.109s] running install_scripts
+[1.133s] Installing face_detect_client_node script to /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.134s] Installing face_detect_node script to /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.134s] Installing face_detect_param_node script to /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.134s] Installing learn_face_detect script to /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.134s] writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/install.log'
+[1.156s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces LD_LIBRARY_PATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/build install --record /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
