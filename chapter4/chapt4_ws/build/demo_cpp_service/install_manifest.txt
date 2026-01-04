@@ -3,6 +3,9 @@
 /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control_param
 /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control_param_callback
 /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client_set_other
+/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/launch/actions_test.launch.py
+/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/launch/substitutions_condition_test.launch.py
+/home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/launch/demo.launch.py
 /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
 /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
 /home/zylyehuo/ROS2_learning/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh

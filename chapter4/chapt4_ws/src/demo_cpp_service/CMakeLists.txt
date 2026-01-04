@@ -43,4 +43,9 @@ install(TARGETS turtle_control patrol_client turtle_control_param turtle_control
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# 安装 launch 文件
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
