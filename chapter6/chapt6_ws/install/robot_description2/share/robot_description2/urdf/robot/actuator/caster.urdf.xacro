@@ -53,6 +53,22 @@
             <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
         </joint>
 
+        <!-- 给 gazebo 提供的标签【颜色...】 -->
+        <gazebo reference="${caster_name}_link">
+            <material>Gazebo/Green</material>
+        </gazebo>
+
+        <gazebo reference="${caster_name}_link">
+            <!-- 【切向】摩擦系数 -->
+            <mu1 value="0.0"/>
+            <!-- 【法向】摩擦系数 -->
+            <mu2 value="0.0"/>
+            <!-- 刚度系数 -->
+            <kp value="1000000000.0"/>
+            <!-- 阻尼系数 -->
+            <kd value="1.0"/>
+        </gazebo>
+
     </xacro:macro>
 
 </robot>

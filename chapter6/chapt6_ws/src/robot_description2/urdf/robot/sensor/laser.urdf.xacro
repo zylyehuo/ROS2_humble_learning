@@ -100,6 +100,15 @@
             <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
         </joint>
 
+        <!-- 给 gazebo 提供的标签【颜色...】 -->
+        <gazebo reference="laser_cylinder_link">
+            <material>Gazebo/Black</material>
+        </gazebo>
+
+        <gazebo reference="laser_link">
+            <material>Gazebo/Black</material>
+        </gazebo>
+
     </xacro:macro>
 
 </robot>
