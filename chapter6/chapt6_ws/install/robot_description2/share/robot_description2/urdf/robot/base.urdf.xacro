@@ -58,6 +58,11 @@
             <child link="base_link"/>
         </joint>
 
+        <!-- 给 gazebo 提供的标签【颜色...】 -->
+        <gazebo reference="base_link">
+            <material>Gazebo/Grey</material>
+        </gazebo>
+
     </xacro:macro>
 
 </robot>
