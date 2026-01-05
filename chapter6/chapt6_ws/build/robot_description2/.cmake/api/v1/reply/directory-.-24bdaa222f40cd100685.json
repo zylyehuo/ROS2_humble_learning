@@ -231,7 +231,8 @@
 			[
 				"launch",
 				"urdf",
-				"config"
+				"config",
+				"world"
 			],
 			"type" : "directory"
 		},

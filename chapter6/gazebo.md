@@ -14,3 +14,7 @@ gazebo
 
 # 安装 URDF 转换 sdf 插件
 sudo apt install ros-$ROS_DISTRO-gazebo-ros-pkgs
+
+# 通过 spawn_entity.py 将 URDF 转换为 sdf
+# 然后调用相应的服务，把 sdf 加载到 gazebo 中
+ros2 run gazebo_ros spawn_entity.py

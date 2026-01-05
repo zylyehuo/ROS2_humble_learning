@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2/launch"
     "/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2/urdf"
     "/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2/config"
+    "/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2/world"
     )
 endif()
 

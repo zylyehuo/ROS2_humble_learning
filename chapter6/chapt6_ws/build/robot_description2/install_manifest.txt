@@ -1,3 +1,5 @@
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_sim.launch.py
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/gazebo_sim.launch.py
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/xacro_display_robot.launch.py
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/xacro.md
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/laser.urdf.xacro
@@ -10,6 +12,9 @@
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/common_inertia.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/urdf.md
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/config/display_robot_model.rviz
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/custom_room.world
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/room/model.config
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/room/model.sdf
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/ament_index/resource_index/package_run_dependencies/robot_description2
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/ament_index/resource_index/parent_prefix_path/robot_description2
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/environment/ament_prefix_path.sh
