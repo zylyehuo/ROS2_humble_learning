@@ -4,6 +4,9 @@
     <xacro:include filename="$(find robot_description2)/urdf/robot/common_inertia.xacro"/>
     
     <xacro:macro name="camera_xacro" params="xyz">
+        <!-- 虚拟 link -->
+        <link name="camera_optical_link"></link>
+
         <!-- 机器人的 camera 部件 -->
         <link name="camera_link">
             <!-- 部件的外观描述 -->
@@ -51,6 +54,15 @@
             <child link="camera_link"/>
             <!-- 将 camera 固定在 base_link 几何中心的偏移处 -->
             <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+        </joint>
+
+        <!-- 机器人的关节，用于组合机器人的部件 -->
+        <joint name="camera_optical_joint" type="fixed">
+            <parent link="camera_link"/>
+            <child link="camera_optical_link"/>
+            <!-- 将 camera_optical_link 固定在 camera_link 几何中心的偏移处 -->
+            <!-- 相机朝向默认前方为 z 轴，因此要进行修正，旋转 90 度 -->
+            <origin xyz="0.0 0.0 0.0" rpy="${-pi/2} 0.0 ${-pi/2}"/>
         </joint>
 
         <!-- 给 gazebo 提供的标签【颜色...】 -->

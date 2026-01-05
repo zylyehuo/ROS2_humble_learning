@@ -2,6 +2,8 @@
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/gazebo_sim.launch.py
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/xacro_display_robot.launch.py
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/xacro.md
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_control_plugins.xacro
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_sensor_plugins.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/laser.urdf.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/imu.urdf.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/camera.urdf.xacro

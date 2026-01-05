@@ -12,6 +12,9 @@
 <!-- 执行器部分 -->
 <xacro:include filename="$(find robot_description2)/urdf/robot/actuator/wheel.urdf.xacro"/>
 <xacro:include filename="$(find robot_description2)/urdf/robot/actuator/caster.urdf.xacro"/>
+<!-- 插件部分 -->
+<xacro:include filename="$(find robot_description2)/urdf/robot/plugins/gazebo_control_plugins.xacro"/>
+<xacro:include filename="$(find robot_description2)/urdf/robot/plugins/gazebo_sensor_plugins.xacro"/>
 
 <!-- 调用宏 xacro -->
 <xacro:base_xacro length="0.12" radius="0.1"/>
@@ -22,5 +25,7 @@
 <xacro:wheel_xacro wheel_name="right_wheel" xyz="0.0 -0.10 -0.06"/>
 <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.076"/>
 <xacro:caster_xacro caster_name="back_caster" xyz="-0.08 0.0 -0.076"/>
+<xacro:gazebo_control_plugin/>
+<xacro:gazebo_sensor_plugin/>
 
 </robot>
