@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
     <!-- 长方体 -->
+    <!-- 单位：m千克 w、h、d米 -->
     <xacro:macro name="box_inertia" params="m w h d">
         <inertial>
             <mass value="${m}" />
