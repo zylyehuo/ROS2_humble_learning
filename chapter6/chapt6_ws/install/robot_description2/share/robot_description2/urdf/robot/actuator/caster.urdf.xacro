@@ -20,6 +20,23 @@
                 </material>
 
             </visual>
+            
+            <collision>
+                <!-- 沿着自己几何中心的偏移和旋转量 -->
+                <!-- 轮子要翻转 90 度 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+
+                <!-- 几何形状 -->
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+
+                <!-- 材质和颜色 -->
+                <material name="yellow">
+                    <color rgba="1.0 1.0 0.0 0.8"/>
+                </material>
+
+            </collision>
 
         </link>
     
