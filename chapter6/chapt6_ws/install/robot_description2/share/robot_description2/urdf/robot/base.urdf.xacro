@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <!-- 引入已经构建好的 xacro 文件 -->
-    <xacro:include filename="$(find robot_description2)/urdf/robot/common_inertial.xacro"/>
+    <xacro:include filename="$(find robot_description2)/urdf/robot/common_inertia.xacro"/>
 
     <xacro:macro name="base_xacro" params="radius length">
         <!-- 虚拟部件【有 link、joint，但是没有实体】 -->

@@ -40,6 +40,9 @@
                 </material>
 
             </collision>
+
+            <xacro:box_inertia m="0.05" w="0.02" h="0.02" d="0.02"/>
+
         </link>
     
         <!-- 机器人的关节，用于组合机器人的部件 -->

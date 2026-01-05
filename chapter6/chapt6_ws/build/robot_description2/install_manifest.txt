@@ -1,6 +1,5 @@
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/xacro_display_robot.launch.py
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/xacro.md
-/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/common_inertial.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/laser.urdf.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/imu.urdf.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/camera.urdf.xacro
@@ -8,6 +7,7 @@
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/base.urdf.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/wheel.urdf.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/caster.urdf.xacro
+/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/common_inertia.xacro
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/urdf.md
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/config/display_robot_model.rviz
 /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/ament_index/resource_index/package_run_dependencies/robot_description2

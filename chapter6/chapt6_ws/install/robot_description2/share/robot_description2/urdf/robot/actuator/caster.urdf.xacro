@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 引入已经构建好的 xacro 文件 -->
+    <xacro:include filename="$(find robot_description2)/urdf/robot/common_inertia.xacro"/>
+    
     <xacro:macro name="caster_xacro" params="caster_name xyz">
         <!-- 机器人的 caster 部件 -->
         <link name="${caster_name}_link">
@@ -37,6 +40,8 @@
                 </material>
 
             </collision>
+
+            <xacro:sphere_inertia m="0.05" r="0.016"/>
 
         </link>
     

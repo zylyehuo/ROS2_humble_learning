@@ -41,6 +41,8 @@
 
             </collision>
 
+            <xacro:sphere_inertia m="0.05" r="0.016"/>
+
         </link>
     
         <!-- 机器人的关节，用于组合机器人的部件 -->
