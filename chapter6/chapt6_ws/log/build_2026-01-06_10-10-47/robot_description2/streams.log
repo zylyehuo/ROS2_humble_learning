@@ -1,0 +1,74 @@
+[0.011s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2 -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2
+[0.362s] -- The C compiler identification is GNU 11.4.0
+[1.356s] -- The CXX compiler identification is GNU 11.4.0
+[2.108s] -- Detecting C compiler ABI info
+[2.323s] -- Detecting C compiler ABI info - done
+[2.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.328s] -- Detecting C compile features
+[2.329s] -- Detecting C compile features - done
+[2.333s] -- Detecting CXX compiler ABI info
+[2.546s] -- Detecting CXX compiler ABI info - done
+[2.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.551s] -- Detecting CXX compile features
+[2.551s] -- Detecting CXX compile features - done
+[2.565s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.672s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.762s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.831s] -- Added test 'lint_cmake' to check CMake code style
+[2.831s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.833s] -- Added test 'xmllint' to check XML markup files
+[2.834s] -- Configuring done
+[2.837s] -- Generating done
+[2.839s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2
+[2.845s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2 -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2
+[2.847s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2 -- -j16 -l16
+[2.878s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2 -- -j16 -l16
+[2.880s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2
+[2.884s] -- Install configuration: ""
+[2.884s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch
+[2.884s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_sim.launch.py
+[2.885s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/gazebo_sim.launch.py
+[2.885s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/launch/xacro_display_robot.launch.py
+[2.885s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf
+[2.885s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/xacro.md
+[2.886s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot
+[2.886s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins
+[2.886s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/robot.ros2_control.xacro
+[2.886s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_control_plugins.xacro
+[2.886s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_sensor_plugins.xacro
+[2.887s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor
+[2.887s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/laser.urdf.xacro
+[2.888s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/imu.urdf.xacro
+[2.888s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/camera.urdf.xacro
+[2.888s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/robot.urdf.xacro
+[2.888s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/base.urdf.xacro
+[2.888s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator
+[2.888s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/wheel.urdf.xacro
+[2.889s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/caster.urdf.xacro
+[2.889s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/robot/common_inertia.xacro
+[2.889s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/urdf/urdf.md
+[2.891s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/config
+[2.891s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/config/robot_ros2_controller.yaml
+[2.891s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/config/display_robot_model.rviz
+[2.891s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world
+[2.891s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/custom_room.world
+[2.892s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/room
+[2.892s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/room/model.config
+[2.892s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/world/room/model.sdf
+[2.893s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/ament_index/resource_index/package_run_dependencies/robot_description2
+[2.893s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/ament_index/resource_index/parent_prefix_path/robot_description2
+[2.893s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/environment/ament_prefix_path.sh
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/environment/ament_prefix_path.dsv
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/environment/path.sh
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/environment/path.dsv
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/local_setup.bash
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/local_setup.sh
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/local_setup.zsh
+[2.894s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/local_setup.dsv
+[2.895s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/package.dsv
+[2.895s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/ament_index/resource_index/packages/robot_description2
+[2.895s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/cmake/robot_description2Config.cmake
+[2.895s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/cmake/robot_description2Config-version.cmake
+[2.895s] -- Installing: /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/install/robot_description2/share/robot_description2/package.xml
+[2.908s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/build/robot_description2

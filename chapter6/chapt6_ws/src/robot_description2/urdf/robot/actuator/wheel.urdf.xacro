@@ -1,23 +1,16 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-    <!-- 引入已经构建好的 xacro 文件 -->
     <xacro:include filename="$(find robot_description2)/urdf/robot/common_inertia.xacro"/>
     
     <xacro:macro name="wheel_xacro" params="wheel_name xyz">
-        <!-- 机器人的 wheel 部件 -->
         <link name="${wheel_name}_link">
-            <!-- 部件的外观描述 -->
             <visual>
-                <!-- 沿着自己几何中心的偏移和旋转量 -->
-                <!-- 轮子要翻转 90 度 -->
                 <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
 
-                <!-- 几何形状 -->
                 <geometry>
                     <cylinder radius="0.032" length="0.04"/>
                 </geometry>
 
-                <!-- 材质和颜色 -->
                 <material name="yellow">
                     <color rgba="1.0 1.0 0.0 0.8"/>
                 </material>
@@ -25,16 +18,12 @@
             </visual>
 
             <collision>
-                <!-- 沿着自己几何中心的偏移和旋转量 -->
-                <!-- 轮子要翻转 90 度 -->
                 <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
 
-                <!-- 几何形状 -->
                 <geometry>
                     <cylinder radius="0.032" length="0.04"/>
                 </geometry>
 
-                <!-- 材质和颜色 -->
                 <material name="yellow">
                     <color rgba="1.0 1.0 0.0 0.8"/>
                 </material>
@@ -45,29 +34,20 @@
 
         </link>
     
-        <!-- 机器人的关节，用于组合机器人的部件 -->
         <joint name="${wheel_name}_joint" type="continuous">
             <parent link="base_link"/>
             <child link="${wheel_name}_link"/>
-            <!-- 将 wheel 固定在 base_link 几何中心的偏移处 -->
             <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
-            <!-- 设置转动轴: 绕y轴旋转 -->
-            <axis xyz="0.0 1.0 0.0"/>
         </joint>
 
-        <!-- 给 gazebo 提供的标签【颜色...】 -->
         <gazebo reference="${wheel_name}_link">
             <material>Gazebo/Yellow</material>
         </gazebo>
 
         <gazebo reference="${wheel_name}_link">
-            <!-- 【切向】摩擦系数 -->
             <mu1 value="20.0"/>
-            <!-- 【法向】摩擦系数 -->
             <mu2 value="20.0"/>
-            <!-- 刚度系数 -->
             <kp value="1000000000.0"/>
-            <!-- 阻尼系数 -->
             <kd value="1.0"/>
         </gazebo>
 

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="robot_ros2_control">
+        <!-- type：传感器、系统【既包含传感器，又包含执行器】、执行器 -->
+        <ros2_control name="RobotGazeboSystem" type="system">
+            <!-- 设置与硬件相关的配置 -->
+            <hardware>
+                <!-- 用于设置驱动库的名字 -->
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            </hardware>
+
+            <!-- 关节名字要与 Gazebo 中使用的关节名字一致 -->
+            <!-- /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2/urdf/robot/robot.urdf.xacro -->
+            <!-- 左驱动轮 -->
+            <joint name="left_wheel_joint">
+                <!-- 命令接口【执行器】 -->
+                <!-- 速度、力矩... -->
+                <command_interface name="velocity">
+                    <!-- 单位：rad/s -->
+                    <param name="min">-1</param>
+                    <param name="max">1</param>
+                </command_interface>
+                <command_interface name="effort">
+                    <!-- 单位：N/s -->
+                    <param name="min">-0.1</param>
+                    <param name="max">0.1</param>
+                </command_interface>
+                <!-- 状态接口【关节对外提供的状态数据，传感器】 -->
+                <!-- 位置、速度、力矩... -->
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+            <!-- 右驱动轮 -->
+            <joint name="right_wheel_joint">
+                <command_interface name="velocity">
+                    <param name="min">-1</param>
+                    <param name="max">1</param>
+                </command_interface>
+                <command_interface name="effort">
+                    <param name="min">-0.1</param>
+                    <param name="max">0.1</param>
+                </command_interface>
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+        </ros2_control>
+
+        <!-- 给 Gazebo 提供的标签 -->
+        <gazebo>
+            <!-- <plugin filename="插件【动态链接库】" name="插件名字"> -->
+            <!-- 这个插件会解析 ros2_control 标签  -->
+            <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+                <!-- ros2_control 的参数配置文件 -->
+                <parameters>$(find robot_description2)/config/robot_ros2_controller.yaml</parameters>
+                <ros>
+                    <remapping>/robot_diff_drive_controller/cmd_vel_unstamped:=/cmd_vel</remapping>
+                    <remapping>/robot_diff_drive_controller/odom:=/odom</remapping>
+                </ros>
+            </plugin>
+        </gazebo>
+
+    </xacro:macro>
+</robot>

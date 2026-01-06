@@ -5,6 +5,7 @@ import os
 
 def generate_launch_description():
     # 获取默认的 xacro 路径
+    # /home/zylyehuo/ROS2_learning/chapter6/chapt6_ws/src/robot_description2/urdf/robot/robot.urdf.xacro
     xacro_package_path = get_package_share_directory("robot_description2")  # 传入功能包的名字
     xacro_file = os.path.join(xacro_package_path, "urdf", "robot", "robot.urdf.xacro")
     

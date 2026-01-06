@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-    <!-- 长方体：{质量:. 长：， 宽：， 高：} -->
-    <!-- 单位：m千克 w、h、d米 -->
     <xacro:macro name="box_inertia" params="m w h d">
         <inertial>
             <mass value="${m}" />
@@ -9,7 +7,6 @@
         </inertial>
     </xacro:macro>
 
-    <!-- 圆柱体：{质量:. 半径：， 高度：} -->
     <xacro:macro name="cylinder_inertia" params="m r h">
         <inertial>
             <mass value="${m}" />
@@ -17,7 +14,6 @@
         </inertial>
     </xacro:macro>
 
-    <!-- 球体：{质量:. 半径：} -->
     <xacro:macro name="sphere_inertia" params="m r">
         <inertial>
             <mass value="${m}" />
