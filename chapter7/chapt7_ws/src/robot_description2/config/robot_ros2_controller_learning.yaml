@@ -1,0 +1,52 @@
+controller_manager:  # 节点名字
+  ros__parameters:
+    update_rate: 100  # 更新频率，单位：Hz
+    use_sim_time: true  # 是否使用仿真时间
+    robot_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster  # 会自动扫描所有的状态接口，将 /position 话题全部发布出去
+      use_sim_time: true
+    robot_effort_controller:  # "力控"控制器
+      type: effort_controllers/JointGroupEffortController
+    robot_diff_drive_controller:  # “差速”控制器
+      type: diff_drive_controller/DiffDriveController
+
+# "力控"控制器的配置参数
+robot_effort_controller:
+  ros__parameters:
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint
+    command_interfaces:
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+
+# "差速"控制器的配置参数
+robot_diff_drive_controller:
+  ros__parameters:   # 给 ROS 看的参数
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    wheel_separation: 0.20  # 轮距
+    # wheels_per_side: 1  # actually 2, but both are controlled by 1 signal
+    wheel_radius: 0.032  # 轮子的半径
+
+    wheel_separation_multiplier: 1.0  # 轮距的倍数
+    left_wheel_radius_multiplier: 1.0  # 左轮半径的倍数
+    right_wheel_radius_multiplier: 1.0  # 右轮半径的倍数
+
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_footprint
+    pose_covariance_diagonal: [0.001, 0.001, 0.0, 0.0, 0.0, 0.01]  # 位置协方差的噪声
+    twist_covariance_diagonal: [0.001, 0.0, 0.0, 0.0, 0.0, 0.01]
+
+    open_loop: true  # 是否是开环控制【应该使用闭环，但如果里程计是准的，就可以使用开环】
+    enable_odom_tf: true  # 是否发布里程计的 TF
+
+    cmd_vel_timeout: 0.5  # 超过 0.5 秒没有收到 cmd 命令就让机器人停止
+    # publish_limited_velocity: true
+    use_stamped_vel: false
+    # velocity_rolling_window_size: 10

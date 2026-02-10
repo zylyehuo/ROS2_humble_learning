@@ -1,0 +1,132 @@
+[0.017s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/robot_description2 -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2
+[0.404s] -- The C compiler identification is GNU 11.4.0
+[1.639s] -- The CXX compiler identification is GNU 11.4.0
+[2.618s] -- Detecting C compiler ABI info
+[2.913s] -- Detecting C compiler ABI info - done
+[2.919s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.921s] -- Detecting C compile features
+[2.922s] -- Detecting C compile features - done
+[2.926s] -- Detecting CXX compiler ABI info
+[3.222s] -- Detecting CXX compiler ABI info - done
+[3.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.228s] -- Detecting CXX compile features
+[3.228s] -- Detecting CXX compile features - done
+[3.239s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.360s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.462s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.534s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.536s] -- Added test 'lint_cmake' to check CMake code style
+[3.537s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.541s] -- Added test 'xmllint' to check XML markup files
+[3.543s] -- Configuring done
+[3.546s] -- Generating done
+[3.548s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2
+[3.552s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/robot_description2 -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2
+[3.554s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2 -- -j16 -l16
+[3.583s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2 -- -j16 -l16
+[3.591s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2
+[3.595s] -- Install configuration: ""
+[3.595s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch
+[3.596s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_sim.launch.py
+[3.596s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_add_joint_effort_controller_sim.launch.py:Zone.Identifier
+[3.596s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_add_joint_diff_controller_sim.launch.py:Zone.Identifier
+[3.596s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_sim.launch.py:Zone.Identifier
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_add_joint_effort_controller_sim.launch.py
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_sim.launch.py
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/xacro_display_robot.launch.py:Zone.Identifier
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_add_robot_add_joint_diff_controller_sim.launch.py
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/gazebo_sim.launch.py:Zone.Identifier
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/launch/xacro_display_robot.launch.py
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot
+[3.597s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/robot.ros2_control.xacro:Zone.Identifier
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/robot.ros2_control.xacro
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_control_plugins.xacro
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_control_plugins.xacro:Zone.Identifier
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_sensor_plugins.xacro
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/plugins/gazebo_sensor_plugins.xacro:Zone.Identifier
+[3.598s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/laser.urdf.xacro
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/laser.urdf.xacro:Zone.Identifier
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/imu.urdf.xacro
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/camera.urdf.xacro:Zone.Identifier
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/imu.urdf.xacro:Zone.Identifier
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/sensor/camera.urdf.xacro
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/robot.urdf.xacro:Zone.Identifier
+[3.599s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/robot.urdf.xacro
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/base.urdf.xacro
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/caster.urdf.xacro:Zone.Identifier
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/wheel.urdf.xacro:Zone.Identifier
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/wheel.urdf.xacro
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/actuator/caster.urdf.xacro
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/common_inertia.xacro:Zone.Identifier
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/common_inertia.xacro
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot/base.urdf.xacro:Zone.Identifier
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning
+[3.600s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/common_inertia_learning.xacro:Zone.Identifier
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins/gazebo_control_plugins_learning.xacro:Zone.Identifier
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins/robot.ros2_control_learning.xacro
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins/gazebo_control_plugins_learning.xacro
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins/gazebo_sensor_plugins_learning.xacro
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins/gazebo_sensor_plugins_learning.xacro:Zone.Identifier
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/plugins/robot.ros2_control_learning.xacro:Zone.Identifier
+[3.601s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor/camera.urdf_learning.xacro:Zone.Identifier
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor/laser.urdf_learning.xacro
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor/imu.urdf_learning.xacro
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor/laser.urdf_learning.xacro:Zone.Identifier
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor/imu.urdf_learning.xacro:Zone.Identifier
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/sensor/camera.urdf_learning.xacro
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/robot.urdf_learning.xacro
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/base.urdf_learning.xacro:Zone.Identifier
+[3.602s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/actuator
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/actuator/caster.urdf_learning.xacro
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/actuator/wheel.urdf_learning.xacro:Zone.Identifier
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/actuator/wheel.urdf_learning.xacro
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/actuator/caster.urdf_learning.xacro:Zone.Identifier
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/base.urdf_learning.xacro
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/common_inertia_learning.xacro
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/robot_learning/robot.urdf_learning.xacro:Zone.Identifier
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README
+[3.603s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/xacro.md
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/gazebo.md
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/gazebo.md:Zone.Identifier
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/urdf.md:Zone.Identifier
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/ros2_control.md:Zone.Identifier
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/ros2_control.md
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/xacro.md:Zone.Identifier
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/urdf/README/urdf.md
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config/robot_ros2_controller.yaml
+[3.604s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config/display_robot_model.rviz
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config/display_robot_model.rviz:Zone.Identifier
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config/robot_ros2_controller.yaml:Zone.Identifier
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config/robot_ros2_controller_learning.yaml
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/config/robot_ros2_controller_learning.yaml:Zone.Identifier
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/custom_room.world
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/room
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/room/model.config
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/room/model.sdf:Zone.Identifier
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/room/model.sdf
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/room/model.config:Zone.Identifier
+[3.605s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/world/custom_room.world:Zone.Identifier
+[3.606s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/ament_index/resource_index/package_run_dependencies/robot_description2
+[3.606s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/ament_index/resource_index/parent_prefix_path/robot_description2
+[3.606s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/environment/ament_prefix_path.sh
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/environment/ament_prefix_path.dsv
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/environment/path.sh
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/environment/path.dsv
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/local_setup.bash
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/local_setup.sh
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/local_setup.zsh
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/local_setup.dsv
+[3.607s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/package.dsv
+[3.608s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/ament_index/resource_index/packages/robot_description2
+[3.608s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/cmake/robot_description2Config.cmake
+[3.608s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/cmake/robot_description2Config-version.cmake
+[3.608s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/robot_description2/share/robot_description2/package.xml
+[3.610s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/robot_description2

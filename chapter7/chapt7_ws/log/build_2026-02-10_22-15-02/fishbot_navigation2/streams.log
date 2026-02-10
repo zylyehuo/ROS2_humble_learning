@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2
+[0.541s] -- The C compiler identification is GNU 11.4.0
+[2.219s] -- The CXX compiler identification is GNU 11.4.0
+[3.483s] -- Detecting C compiler ABI info
+[3.856s] -- Detecting C compiler ABI info - done
+[3.862s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.864s] -- Detecting C compile features
+[3.865s] -- Detecting C compile features - done
+[3.870s] -- Detecting CXX compiler ABI info
+[4.242s] -- Detecting CXX compiler ABI info - done
+[4.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.248s] -- Detecting CXX compile features
+[4.248s] -- Detecting CXX compile features - done
+[4.256s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.413s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.537s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.622s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.623s] -- Added test 'lint_cmake' to check CMake code style
+[4.624s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.626s] -- Added test 'xmllint' to check XML markup files
+[4.629s] -- Configuring done
+[4.633s] -- Generating done
+[4.635s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2
+[4.639s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2
+[4.641s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2 -- -j16 -l16
+[4.685s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2 -- -j16 -l16
+[4.687s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2
+[4.694s] -- Install configuration: ""
+[4.694s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[4.695s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[4.695s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[4.695s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[4.695s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[4.696s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[4.696s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/nav2_params.yaml
+[4.696s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[4.696s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[4.697s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[4.697s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[4.697s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[4.698s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[4.699s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[4.699s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[4.699s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[4.702s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_navigation2
