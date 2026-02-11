@@ -1,0 +1,26 @@
+[0.730s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/fishbot_application': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/build install --record /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[0.966s] running egg_info
+[0.967s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[0.968s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[0.968s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[0.968s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[0.968s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[0.971s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[0.971s] adding license file 'LICENSE'
+[0.972s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.972s] running build_py
+[0.972s] copying fishbot_application/get_robot_pose.py -> /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[0.972s] running install
+[0.973s] running install_lib
+[0.974s] copying /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application/get_robot_pose.py -> /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[0.975s] byte-compiling /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[0.976s] running install_data
+[0.976s] running install_egg_info
+[0.978s] removing '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[0.979s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[0.980s] running install_scripts
+[1.001s] Installing get_robot_pose script to /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.001s] Installing init_robot_pose script to /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.002s] writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/install.log'
+[1.030s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/build install --record /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
