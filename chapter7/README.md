@@ -10,7 +10,6 @@
 - fishbot_description 机器人描述文件，包含仿真相关配置
 - fishbot_navigation2 机器人导航配置文件
 - fishbot_application 机器人导航应用 Python 代码
-- fishbot_application_cpp 机器人导航应用 C++ 代码
 - autopatrol_interfaces  自动巡检相关接口
 - autopatrol_robot  自动巡检实现功能包
 
@@ -160,3 +159,7 @@ ros2 launch autopatrol_robot autopatrol.launch.py
 ros2 launch robot_description2 gazebo_add_robot_add_joint_diff_controller_sim.launch.py
 ros2 launch fishbot_navigation2 navigation2.launch.py
 ros2 launch autopatrol_robot autopatrol_image.launch.py
+
+# 7.6
+## 在 vscode 中预览 markdown 文件
+ctrl + shift + v 
