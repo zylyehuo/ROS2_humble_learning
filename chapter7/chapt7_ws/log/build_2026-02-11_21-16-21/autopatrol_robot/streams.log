@@ -1,0 +1,26 @@
+[2.587s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/autopatrol_robot': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/build install --record /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[2.747s] running egg_info
+[2.747s] writing ../../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[2.748s] writing dependency_links to ../../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[2.748s] writing entry points to ../../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[2.748s] writing requirements to ../../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[2.748s] writing top-level names to ../../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[2.749s] reading manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[2.750s] adding license file 'LICENSE'
+[2.751s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[2.751s] running build
+[2.751s] running build_py
+[2.751s] copying autopatrol_robot/patrol_node.py -> /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[2.752s] running install
+[2.752s] running install_lib
+[2.752s] copying /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_node.py -> /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[2.753s] byte-compiling /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[2.754s] running install_data
+[2.754s] running install_egg_info
+[2.756s] removing '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.756s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[2.760s] running install_scripts
+[2.775s] Installing patrol_node script to /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/autopatrol_robot
+[2.775s] Installing speaker script to /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/autopatrol_robot
+[2.775s] writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/install.log'
+[2.795s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/autopatrol_robot' returned '0': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/build install --record /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

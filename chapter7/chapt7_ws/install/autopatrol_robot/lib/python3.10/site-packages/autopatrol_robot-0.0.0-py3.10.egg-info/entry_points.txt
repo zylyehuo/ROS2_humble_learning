@@ -1,3 +1,6 @@
 [console_scripts]
 patrol_node = autopatrol_robot.patrol_node:main
+patrol_speak_image_node = autopatrol_robot.patrol_speak_image_node:main
+patrol_speak_node = autopatrol_robot.patrol_speak_node:main
+speaker = autopatrol_robot.speaker:main
 

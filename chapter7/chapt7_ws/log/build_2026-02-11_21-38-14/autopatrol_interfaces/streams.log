@@ -1,0 +1,234 @@
+[0.040s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/autopatrol_interfaces -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces
+[0.742s] -- The C compiler identification is GNU 11.4.0
+[2.935s] -- The CXX compiler identification is GNU 11.4.0
+[4.401s] -- Detecting C compiler ABI info
+[4.855s] -- Detecting C compiler ABI info - done
+[4.862s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.863s] -- Detecting C compile features
+[4.864s] -- Detecting C compile features - done
+[4.869s] -- Detecting CXX compiler ABI info
+[5.340s] -- Detecting CXX compiler ABI info - done
+[5.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.347s] -- Detecting CXX compile features
+[5.348s] -- Detecting CXX compile features - done
+[5.371s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.528s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.669s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.700s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.867s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.107s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.110s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.073s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.073s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.073s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.073s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.094s] -- Found PythonExtra: .so  
+[10.311s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.354s] -- Added test 'lint_cmake' to check CMake code style
+[10.357s] -- Added test 'xmllint' to check XML markup files
+[10.362s] -- Configuring done
+[10.414s] -- Generating done
+[10.428s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces
+[10.438s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/src/autopatrol_interfaces -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces
+[10.441s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces -- -j16 -l16
+[10.484s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.500s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.515s] [  6%] Built target ament_cmake_python_copy_autopatrol_interfaces
+[10.846s] running egg_info
+[10.846s] creating autopatrol_interfaces.egg-info
+[10.847s] writing autopatrol_interfaces.egg-info/PKG-INFO
+[10.848s] writing dependency_links to autopatrol_interfaces.egg-info/dependency_links.txt
+[10.848s] writing top-level names to autopatrol_interfaces.egg-info/top_level.txt
+[10.848s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[10.853s] reading manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[10.853s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[10.897s] [  9%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopatrol_interfaces/srv/detail/speech_text__functions.c.o[0m
+[10.897s] [  9%] Built target ament_cmake_python_build_autopatrol_interfaces_egg
+[10.901s] [  9%] Built target autopatrol_interfaces__cpp
+[10.913s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.913s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.914s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.018s] [ 22%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_generator_c.so[0m
+[11.263s] [ 25%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopatrol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[11.300s] [ 29%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopatrol_interfaces/srv/detail/speech_text__type_support.cpp.o[0m
+[11.320s] [ 32%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopatrol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp.o[0m
+[11.684s] [ 32%] Built target autopatrol_interfaces__rosidl_generator_c
+[11.699s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.700s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.703s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.769s] [ 45%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_cpp.so[0m
+[12.022s] [ 48%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.104s] [ 51%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.169s] [ 54%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopatrol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[12.209s] [ 58%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopatrol_interfaces/srv/detail/speech_text__type_support.c.o[0m
+[12.224s] [ 64%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopatrol_interfaces/srv/detail/speech_text__type_support_c.cpp.o[0m
+[12.224s] [ 64%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_c.so[0m
+[12.269s] [ 67%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.587s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_cpp
+[12.851s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp
+[12.858s] [ 70%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.949s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.979s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_c
+[13.030s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c
+[13.504s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c
+[13.531s] [ 70%] Built target autopatrol_interfaces
+[13.556s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.090s] [ 74%] Built target autopatrol_interfaces__py
+[14.118s] [ 77%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopatrol_interfaces/srv/_speech_text_s.c.o[0m
+[14.287s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so[0m
+[14.951s] [ 80%] Built target autopatrol_interfaces__rosidl_generator_py
+[14.988s] [ 87%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.988s] [ 87%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.991s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.143s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.148s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.148s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.586s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[15.587s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext
+[15.587s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_c__pyext
+[15.606s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces -- -j16 -l16
+[15.609s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces
+[15.622s] -- Install configuration: ""
+[15.624s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopatrol_interfaces
+[15.624s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[15.625s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[15.625s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.h
+[15.625s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[15.626s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.h
+[15.626s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.h
+[15.626s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.c
+[15.626s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.h
+[15.627s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[15.627s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.627s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.sh
+[15.627s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.dsv
+[15.627s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so
+[15.628s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so" to ""
+[15.628s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[15.628s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[15.628s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[15.628s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[15.629s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[15.629s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.629s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.630s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.630s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[15.630s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[15.630s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[15.630s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[15.631s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.c
+[15.631s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[15.631s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.631s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so
+[15.631s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.631s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so
+[15.631s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so" to ""
+[15.631s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[15.632s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[15.632s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.hpp
+[15.632s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[15.632s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.hpp
+[15.633s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.hpp
+[15.633s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__builder.hpp
+[15.633s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__traits.hpp
+[15.633s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[15.633s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.633s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[15.634s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[15.634s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[15.634s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[15.634s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/dds_fastrtps
+[15.634s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[15.635s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.635s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.635s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.635s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[15.635s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[15.635s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[15.635s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.cpp
+[15.635s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[15.636s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.636s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.636s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so
+[15.636s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.637s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.sh
+[15.637s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.dsv
+[15.637s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info
+[15.638s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[15.639s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[15.639s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.639s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.639s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces
+[15.640s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.640s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv
+[15.640s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text.py
+[15.641s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/__init__.py
+[15.641s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text_s.c
+[15.641s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.641s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.641s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.642s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/__init__.py
+[15.642s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c
+[15.642s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so
+[15.642s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.707s] Listing '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces'...
+[15.707s] Compiling '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/__init__.py'...
+[15.708s] Listing '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv'...
+[15.708s] Compiling '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/__init__.py'...
+[15.708s] Compiling '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text.py'...
+[15.714s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.715s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.716s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.716s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.716s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.716s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.717s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so
+[15.717s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so" to ""
+[15.717s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.idl
+[15.717s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.srv
+[15.718s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Request.msg
+[15.718s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Response.msg
+[15.721s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopatrol_interfaces
+[15.721s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopatrol_interfaces
+[15.722s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.sh
+[15.722s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.dsv
+[15.722s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.sh
+[15.722s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.dsv
+[15.723s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.bash
+[15.723s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.sh
+[15.723s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.zsh
+[15.723s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.dsv
+[15.724s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv
+[15.724s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/packages/autopatrol_interfaces
+[15.725s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport.cmake
+[15.726s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.726s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.726s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.727s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.727s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.727s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport.cmake
+[15.728s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.728s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cppExport.cmake
+[15.728s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.728s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.728s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.729s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.729s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport.cmake
+[15.729s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.730s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport.cmake
+[15.730s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.730s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.730s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.731s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.731s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.731s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.732s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.732s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.732s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig.cmake
+[15.733s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig-version.cmake
+[15.733s] -- Installing: /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.xml
+[15.739s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/build/autopatrol_interfaces

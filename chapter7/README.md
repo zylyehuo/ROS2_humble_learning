@@ -58,3 +58,21 @@ source install/setup.bash
 ros2 run fishbot_application waypoints_follower
 
 # 7.5
+## 自动生成参数文件
+cd ~/ROS2_learning/chapter7/chapt7_ws/
+source install/setup.bash
+ros2 run autopatrol_robot patrol_node
+ros2 param dump /patrol_node
+
+## 测试读取参数文件
+ros2 run autopatrol_robot patrol_node --ros-args --params-file /home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/config/patrol_config.yaml
+
+## 测试合成语音播报
+ros2 launch robot_description2 gazebo_add_robot_add_joint_diff_controller_sim.launch.py
+ros2 launch fishbot_navigation2 navigation2.launch.py
+ros2 launch autopatrol_robot autopatrol.launch.py
+
+## 测试图像
+ros2 launch robot_description2 gazebo_add_robot_add_joint_diff_controller_sim.launch.py
+ros2 launch fishbot_navigation2 navigation2.launch.py
+ros2 launch autopatrol_robot autopatrol_image.launch.py

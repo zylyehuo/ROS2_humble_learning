@@ -11,6 +11,12 @@ setup.py
 ../../build/autopatrol_robot/autopatrol_robot.egg-info/zip-safe
 autopatrol_robot/__init__.py
 autopatrol_robot/patrol_node.py
+autopatrol_robot/patrol_speak_image_node.py
+autopatrol_robot/patrol_speak_node.py
+autopatrol_robot/speaker.py
+config/patrol_config.yaml
+launch/autopatrol.launch.py
+launch/autopatrol_image.launch.py
 resource/autopatrol_robot
 test/test_copyright.py
 test/test_flake8.py
