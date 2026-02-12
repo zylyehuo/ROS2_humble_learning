@@ -1,0 +1,13 @@
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_controller/src/custom_controller.cpp:46:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 |         [01;35m[Kconst geometry_msgs::msg::PoseStamped &pose[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kdouble nav2_custom_controller::CustomController::calculateAngleDifference(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_controller/src/custom_controller.cpp:70:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   70 |  double CustomController::calculateAngleDifference([01;35m[Kconst geometry_msgs::msg::PoseStamped &current_pose[m[K, const geometry_msgs::msg::PoseStamped &target_pose)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_controller/src/custom_controller.cpp:70:147:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   70 | nst geometry_msgs::msg::PoseStamped &current_pose, [01;35m[Kconst geometry_msgs::msg::PoseStamped &target_pose[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+

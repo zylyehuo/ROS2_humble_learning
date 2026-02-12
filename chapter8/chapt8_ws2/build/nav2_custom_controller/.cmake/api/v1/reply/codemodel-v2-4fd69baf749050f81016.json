@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b61b2b159bfc400d048a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_custom_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_controller_complete_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_controller_complete_plugin-47ac31009b7cfc16dcdd.json",
+					"name" : "nav2_custom_controller_complete_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_controller_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_controller_plugin-11616ebe7201d657f3fa.json",
+					"name" : "nav2_custom_controller_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_controller_uninstall-f37c9a9fad4a883c7121.json",
+					"name" : "nav2_custom_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-94eb1c53ce356dbc5e39.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_controller",
+		"source" : "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

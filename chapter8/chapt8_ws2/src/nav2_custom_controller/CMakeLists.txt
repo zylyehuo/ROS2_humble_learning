@@ -22,4 +22,34 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# 包含头文件目录
+include_directories(include)
+# 定义库名称
+set(library_name ${PROJECT_NAME}_plugin)
+# 创建共享库
+add_library(${library_name} SHARED src/custom_controller.cpp)
+# 指定库的依赖关系
+ament_target_dependencies(${library_name} nav2_core pluginlib)
+# 安装库文件到指定目录
+install(TARGETS ${library_name}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
+)
+
+set(library_name2 ${PROJECT_NAME}_complete_plugin)
+add_library(${library_name2} SHARED src/complete_custom_controller.cpp)
+ament_target_dependencies(${library_name2} nav2_core pluginlib)
+install(TARGETS ${library_name2}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
+)
+
+# 安装头文件到指定目录
+install(DIRECTORY include/
+ DESTINATION include/)
+# 导出插件描述文件
+pluginlib_export_plugin_description_file(nav2_core nav2_custom_controller.xml)
+
 ament_package()

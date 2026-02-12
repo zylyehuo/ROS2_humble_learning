@@ -1,0 +1,33 @@
+[0.379s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner -- -j16 -l16
+[0.430s] [ 50%] Built target nav2_custom_planner_plugin
+[0.431s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_line_plugin.dir/src/nav2_line_custom_planner.cpp.o[0m
+[4.230s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_line_plugin.so[0m
+[4.753s] [100%] Built target nav2_custom_planner_line_plugin
+[4.764s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner -- -j16 -l16
+[4.766s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner
+[4.772s] -- Install configuration: ""
+[4.772s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[4.772s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_line_plugin.so
+[4.773s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_line_plugin.so" to ""
+[4.773s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include/
+[4.773s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner
+[4.773s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner/nav2_line_custom_planner.hpp
+[4.773s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[4.773s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[4.773s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[4.774s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[4.774s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[4.775s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[4.775s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[4.775s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[4.775s] -- Up-to-date: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[4.776s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner
