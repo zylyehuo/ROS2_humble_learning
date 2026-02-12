@@ -56,3 +56,9 @@ cd ~/ROS2_learning/chapter8/chapt8_ws2/
 source install/setup.bash
 ros2 launch fishbot_navigation2 navigation2.launch.py
 ```
+
+# 8.3
+```
+cd ~/ROS2_learning/chapter8/chapt8_ws2/src
+ros2 pkg create nav2_custom_controller --build-type ament_cmake --dependencies pluginlib nav2_core --license Apache-2.0
+```
