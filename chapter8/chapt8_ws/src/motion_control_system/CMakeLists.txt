@@ -21,7 +21,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-# ================取消编译生成可执行文件，改为生成动态链接库，添加库文件=====================
+# ================生成动态链接库，添加库文件=====================
 include_directories(include)  # 添加头文件目录
 add_library(spin_motion_controller SHARED src/spin_motion_controller.cpp)  # SHARED：添加动态链接库，
                                                                            # add_library(要生成的动态链接库的名字 SHARED 对应的源文件)
@@ -40,9 +40,9 @@ install(DIRECTORY include/
 )
 
 # 导出插件描述文件
-pluginlib_export_plugin_description_file(motion_control_system spin_motion_plugins.xml)  # pluginlib_export_plugin_description_file(功能包的名字 插件描述文件的路径)
+pluginlib_export_plugin_description_file(motion_control_system spin_motion_plugins.xml)  # pluginlib_export_plugin_description_file(插件基类（接口）所在功能包的名字 插件描述文件的路径)
 
-# ================取消编译生成可执行文件，改为生成动态链接库，添加库文件=====================
+# ================生成动态链接库，添加库文件=====================
 
 add_executable(test_plugin src/test_plugin.cpp)  # 添加可执行文件
 ament_target_dependencies(test_plugin pluginlib)  # 添加依赖，不需要在链接阶段显式地声明需要依赖哪个动态链接库（spin_motion_controller）

@@ -1,0 +1,27 @@
+[0.451s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner
+[0.466s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.630s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[4.220s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[4.254s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.257s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.267s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.293s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.338s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.342s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.368s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.385s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.604s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.610s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.146s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.234s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.294s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[5.294s]   ament_target_dependencies() the first argument must be a valid target name
+[5.294s] Call Stack (most recent call first):
+[5.294s]   CMakeLists.txt:30 (ament_target_dependencies)
+[5.294s] 
+[5.294s] [0m
+[5.294s] -- Configuring incomplete, errors occurred!
+[5.294s] See also "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/CMakeOutput.log".
+[5.301s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner

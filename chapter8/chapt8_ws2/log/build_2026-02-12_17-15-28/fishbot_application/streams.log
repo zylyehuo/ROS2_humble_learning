@@ -1,0 +1,50 @@
+[0.854s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/fishbot_application': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build install --record /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.054s] running egg_info
+[1.054s] creating ../../build/fishbot_application/fishbot_application.egg-info
+[1.055s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[1.055s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[1.055s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[1.055s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[1.055s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[1.056s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.057s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.058s] adding license file 'LICENSE'
+[1.058s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.059s] running build_py
+[1.059s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build
+[1.059s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib
+[1.059s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application
+[1.060s] copying fishbot_application/nav_to_pose.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application
+[1.060s] copying fishbot_application/__init__.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application
+[1.061s] copying fishbot_application/waypoints_follower.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application
+[1.061s] copying fishbot_application/get_robot_pose.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application
+[1.062s] copying fishbot_application/init_robot_pose.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application
+[1.063s] running install
+[1.063s] running install_lib
+[1.064s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.064s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application/nav_to_pose.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.064s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application/__init__.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.064s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application/waypoints_follower.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.065s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application/get_robot_pose.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.065s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build/lib/fishbot_application/init_robot_pose.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.065s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[1.066s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/__init__.py to __init__.cpython-310.pyc
+[1.067s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/waypoints_follower.py to waypoints_follower.cpython-310.pyc
+[1.067s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[1.068s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[1.068s] running install_data
+[1.068s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/share/ament_index
+[1.068s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/share/ament_index/resource_index
+[1.068s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/share/ament_index/resource_index/packages
+[1.068s] copying resource/fishbot_application -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/share/ament_index/resource_index/packages
+[1.069s] copying package.xml -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/share/fishbot_application
+[1.069s] running install_egg_info
+[1.071s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.072s] running install_scripts
+[1.089s] Installing get_robot_pose script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/fishbot_application
+[1.090s] Installing init_robot_pose script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/fishbot_application
+[1.090s] Installing nav_to_pose script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/fishbot_application
+[1.090s] Installing waypoints_follower script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/fishbot_application
+[1.090s] writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/install.log'
+[1.113s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/fishbot_application' returned '0': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/build install --record /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/fishbot_application/install.log --single-version-externally-managed install_data

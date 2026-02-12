@@ -1,0 +1,8 @@
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_custom_planner.cpp:46:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 |     CustomPlanner::createPlan([01;35m[Kconst geometry_msgs::msg::PoseStamped &start[m[K, const geometry_msgs::msg::PoseStamped &goal)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_custom_planner.cpp:46:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 | createPlan(const geometry_msgs::msg::PoseStamped &start, [01;35m[Kconst geometry_msgs::msg::PoseStamped &goal[m[K)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+

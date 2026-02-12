@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autopatrol_interfaces/srv/SpeechText.srv
+// generated code does not contain a copyright notice
+
+
+module autopatrol_interfaces {
+  module srv {
+    struct SpeechText_Request {
+      @verbatim (language="comment", text=
+        "要朗读的文本")
+      string text;
+    };
+    struct SpeechText_Response {
+      @verbatim (language="comment", text=
+        "响应结果")
+      boolean result;
+    };
+  };
+};

@@ -1,0 +1,48 @@
+[0.363s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner
+[0.602s] -- The C compiler identification is GNU 11.4.0
+[1.773s] -- The CXX compiler identification is GNU 11.4.0
+[2.536s] -- Detecting C compiler ABI info
+[2.842s] -- Detecting C compiler ABI info - done
+[2.846s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.848s] -- Detecting C compile features
+[2.848s] -- Detecting C compile features - done
+[2.852s] -- Detecting CXX compiler ABI info
+[3.129s] -- Detecting CXX compiler ABI info - done
+[3.135s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.136s] -- Detecting CXX compile features
+[3.136s] -- Detecting CXX compile features - done
+[3.151s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.366s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[7.151s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[7.192s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.197s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.204s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.289s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.294s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.331s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.382s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.386s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.826s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.829s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.836s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.039s] -- Looking for pthread.h
+[8.318s] -- Looking for pthread.h - found
+[8.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.570s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.571s] -- Found Threads: TRUE  
+[9.020s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.020s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.120s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.174s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[9.174s]   ament_target_dependencies() the first argument must be a valid target name
+[9.174s] Call Stack (most recent call first):
+[9.174s]   CMakeLists.txt:30 (ament_target_dependencies)
+[9.174s] 
+[9.174s] [0m
+[9.174s] -- Configuring incomplete, errors occurred!
+[9.174s] See also "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/CMakeOutput.log".
+[9.184s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner
