@@ -1,0 +1,55 @@
+[0.918s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/autopatrol_robot': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build install --record /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[1.118s] running egg_info
+[1.119s] creating ../../build/autopatrol_robot/autopatrol_robot.egg-info
+[1.119s] writing ../../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[1.120s] writing top-level names to ../../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[1.120s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[1.121s] reading manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[1.121s] adding license file 'LICENSE'
+[1.122s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[1.122s] running build
+[1.122s] running build_py
+[1.123s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build
+[1.123s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib
+[1.123s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.124s] copying autopatrol_robot/patrol_speak_node.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.125s] copying autopatrol_robot/patrol_node.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.125s] copying autopatrol_robot/__init__.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.125s] copying autopatrol_robot/patrol_speak_image_node.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.126s] copying autopatrol_robot/speaker.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.126s] running install
+[1.127s] running install_lib
+[1.128s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[1.129s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_speak_node.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[1.129s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_node.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[1.129s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot/__init__.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[1.129s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_speak_image_node.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[1.130s] copying /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build/lib/autopatrol_robot/speaker.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[1.130s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_speak_node.py to patrol_speak_node.cpython-310.pyc
+[1.131s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[1.131s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/__init__.py to __init__.cpython-310.pyc
+[1.132s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_speak_image_node.py to patrol_speak_image_node.cpython-310.pyc
+[1.133s] byte-compiling /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/speaker.py to speaker.cpython-310.pyc
+[1.133s] running install_data
+[1.134s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/ament_index
+[1.134s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/ament_index/resource_index
+[1.134s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/ament_index/resource_index/packages
+[1.134s] copying resource/autopatrol_robot -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/ament_index/resource_index/packages
+[1.134s] copying package.xml -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/autopatrol_robot
+[1.135s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/autopatrol_robot/config
+[1.135s] copying config/patrol_config.yaml -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/autopatrol_robot/config
+[1.136s] creating /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/autopatrol_robot/launch
+[1.136s] copying launch/autopatrol.launch.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/autopatrol_robot/launch
+[1.136s] copying launch/autopatrol_image.launch.py -> /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/share/autopatrol_robot/launch
+[1.136s] running install_egg_info
+[1.138s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[1.139s] running install_scripts
+[1.156s] Installing patrol_node script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/autopatrol_robot
+[1.157s] Installing patrol_speak_image_node script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/autopatrol_robot
+[1.157s] Installing patrol_speak_node script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/autopatrol_robot
+[1.157s] Installing speaker script to /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/autopatrol_robot
+[1.157s] writing list of installed files to '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/install.log'
+[1.197s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/autopatrol_robot' returned '0': PYTHONPATH=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/build install --record /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/autopatrol_robot/install.log --single-version-externally-managed install_data

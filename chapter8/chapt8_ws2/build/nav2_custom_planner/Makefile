@@ -210,6 +210,19 @@ nav2_custom_planner_plugin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_custom_planner_plugin.dir/build.make CMakeFiles/nav2_custom_planner_plugin.dir/build
 .PHONY : nav2_custom_planner_plugin/fast
 
+#=============================================================================
+# Target rules for targets named nav2_custom_planner_line_plugin
+
+# Build rule for target.
+nav2_custom_planner_line_plugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav2_custom_planner_line_plugin
+.PHONY : nav2_custom_planner_line_plugin
+
+# fast build rule for target.
+nav2_custom_planner_line_plugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_custom_planner_line_plugin.dir/build.make CMakeFiles/nav2_custom_planner_line_plugin.dir/build
+.PHONY : nav2_custom_planner_line_plugin/fast
+
 src/nav2_custom_planner.o: src/nav2_custom_planner.cpp.o
 .PHONY : src/nav2_custom_planner.o
 
@@ -234,6 +247,30 @@ src/nav2_custom_planner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_custom_planner_plugin.dir/build.make CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.s
 .PHONY : src/nav2_custom_planner.cpp.s
 
+src/nav2_line_custom_planner.o: src/nav2_line_custom_planner.cpp.o
+.PHONY : src/nav2_line_custom_planner.o
+
+# target to build an object file
+src/nav2_line_custom_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_custom_planner_line_plugin.dir/build.make CMakeFiles/nav2_custom_planner_line_plugin.dir/src/nav2_line_custom_planner.cpp.o
+.PHONY : src/nav2_line_custom_planner.cpp.o
+
+src/nav2_line_custom_planner.i: src/nav2_line_custom_planner.cpp.i
+.PHONY : src/nav2_line_custom_planner.i
+
+# target to preprocess a source file
+src/nav2_line_custom_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_custom_planner_line_plugin.dir/build.make CMakeFiles/nav2_custom_planner_line_plugin.dir/src/nav2_line_custom_planner.cpp.i
+.PHONY : src/nav2_line_custom_planner.cpp.i
+
+src/nav2_line_custom_planner.s: src/nav2_line_custom_planner.cpp.s
+.PHONY : src/nav2_line_custom_planner.s
+
+# target to generate assembly for a file
+src/nav2_line_custom_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_custom_planner_line_plugin.dir/build.make CMakeFiles/nav2_custom_planner_line_plugin.dir/src/nav2_line_custom_planner.cpp.s
+.PHONY : src/nav2_line_custom_planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +286,14 @@ help:
 	@echo "... test"
 	@echo "... nav2_custom_planner_uninstall"
 	@echo "... uninstall"
+	@echo "... nav2_custom_planner_line_plugin"
 	@echo "... nav2_custom_planner_plugin"
 	@echo "... src/nav2_custom_planner.o"
 	@echo "... src/nav2_custom_planner.i"
 	@echo "... src/nav2_custom_planner.s"
+	@echo "... src/nav2_line_custom_planner.o"
+	@echo "... src/nav2_line_custom_planner.i"
+	@echo "... src/nav2_line_custom_planner.s"
 .PHONY : help
 
 

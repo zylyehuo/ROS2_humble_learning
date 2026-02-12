@@ -1,6 +1,7 @@
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/uninstall.dir
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/nav2_custom_planner_uninstall.dir
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/nav2_custom_planner_plugin.dir
+/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/nav2_custom_planner_line_plugin.dir
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/test.dir
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/edit_cache.dir
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner/CMakeFiles/rebuild_cache.dir

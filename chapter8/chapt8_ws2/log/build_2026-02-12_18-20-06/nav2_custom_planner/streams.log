@@ -1,0 +1,101 @@
+[0.381s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner
+[0.658s] -- The C compiler identification is GNU 11.4.0
+[2.091s] -- The CXX compiler identification is GNU 11.4.0
+[2.752s] -- Detecting C compiler ABI info
+[3.144s] -- Detecting C compiler ABI info - done
+[3.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.150s] -- Detecting C compile features
+[3.152s] -- Detecting C compile features - done
+[3.155s] -- Detecting CXX compiler ABI info
+[3.586s] -- Detecting CXX compiler ABI info - done
+[3.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.592s] -- Detecting CXX compile features
+[3.592s] -- Detecting CXX compile features - done
+[3.607s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.732s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.840s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[8.608s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[8.657s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.662s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.670s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.754s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.759s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.796s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.856s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.347s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.351s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.361s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.602s] -- Looking for pthread.h
+[10.014s] -- Looking for pthread.h - found
+[10.014s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.317s] -- Found Threads: TRUE  
+[10.791s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.791s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.894s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.010s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.010s] -- Configured cppcheck include dirs: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/include
+[11.010s] -- Configured cppcheck exclude dirs and/or files: 
+[11.011s] -- Added test 'lint_cmake' to check CMake code style
+[11.012s] -- Added test 'uncrustify' to check C / C++ code style
+[11.012s] -- Configured uncrustify additional arguments: 
+[11.012s] -- Added test 'xmllint' to check XML markup files
+[11.014s] -- Configuring done
+[11.223s] -- Generating done
+[11.232s] -- Build files have been written to: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner
+[11.244s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner
+[11.246s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner -- -j16 -l16
+[11.286s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[11.286s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_line_plugin.dir/src/nav2_line_custom_planner.cpp.o[0m
+[14.329s] [01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_line_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_line_custom_planner::LineCustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[14.329s] [01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_line_custom_planner.cpp:46:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.330s]    46 |     LineCustomPlanner::createPlan([01;35m[Kconst geometry_msgs::msg::PoseStamped &start[m[K, const geometry_msgs::msg::PoseStamped &goal)
+[14.330s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[14.330s] [01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_line_custom_planner.cpp:46:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.330s]    46 |     LineCustomPlanner::createPlan(const geometry_msgs::msg::PoseStamped &start, [01;35m[Kconst geometry_msgs::msg::PoseStamped &goal[m[K)
+[14.330s]       |                                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[14.330s] [01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[14.330s] [01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_custom_planner.cpp:46:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.330s]    46 |     CustomPlanner::createPlan([01;35m[Kconst geometry_msgs::msg::PoseStamped &start[m[K, const geometry_msgs::msg::PoseStamped &goal)
+[14.330s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[14.330s] [01m[K/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/src/nav2_custom_planner/src/nav2_custom_planner.cpp:46:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.330s]    46 | createPlan(const geometry_msgs::msg::PoseStamped &start, [01;35m[Kconst geometry_msgs::msg::PoseStamped &goal[m[K)
+[14.330s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[14.330s] 
+[15.792s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_line_plugin.so[0m
+[15.792s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[16.291s] [100%] Built target nav2_custom_planner_line_plugin
+[16.291s] [100%] Built target nav2_custom_planner_plugin
+[16.303s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner -- -j16 -l16
+[16.305s] Invoking command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner
+[16.313s] -- Install configuration: ""
+[16.313s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[16.313s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[16.314s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_line_plugin.so
+[16.314s] -- Set runtime path of "/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_line_plugin.so" to ""
+[16.314s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include/
+[16.314s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner
+[16.314s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner/nav2_line_custom_planner.hpp
+[16.315s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[16.315s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[16.316s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[16.316s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[16.317s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[16.317s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[16.317s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[16.317s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[16.317s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[16.317s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[16.318s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[16.318s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[16.318s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[16.318s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[16.319s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[16.319s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[16.319s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[16.320s] -- Installing: /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[16.322s] Invoked command in '/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/autopatrol_robot:/home/zylyehuo/ROS2_learning/chapter7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/build/nav2_custom_planner

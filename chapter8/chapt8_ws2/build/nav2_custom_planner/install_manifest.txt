@@ -1,4 +1,6 @@
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/lib/libnav2_custom_planner_line_plugin.so
+/home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner/nav2_line_custom_planner.hpp
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
 /home/zylyehuo/ROS2_learning/chapter8/chapt8_ws2/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner

@@ -45,3 +45,14 @@ cp -r ../../chapter7/chapt7_ws/src/ .
 ```
 ros2 pkg create nav2_custom_planner --dependencies pluginlib nav2_core --license Apache-2.0
 ```
+## 8.2.4
+```
+cd ~/ROS2_learning/chapter8/chapt8_ws2/
+source install/setup.bash
+ros2 launch robot_description2 gazebo_add_robot_add_joint_diff_controller_sim.launch.py
+```
+```
+cd ~/ROS2_learning/chapter8/chapt8_ws2/
+source install/setup.bash
+ros2 launch fishbot_navigation2 navigation2.launch.py
+```

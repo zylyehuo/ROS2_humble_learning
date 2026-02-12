@@ -26,11 +26,22 @@ endif()
 include_directories(include)  # 添加头文件目录
 set(library_name ${PROJECT_NAME}_plugin)  # 定义库名称
 add_library(${library_name} SHARED  src/nav2_custom_planner.cpp)  # SHARED：添加动态链接库，
-                                                                   # add_library(要生成的动态链接库的名字 SHARED 对应的源文件)
+                                                                  # add_library(要生成的动态链接库的名字 SHARED 对应的源文件)
 ament_target_dependencies(${library_name} nav2_core pluginlib)  # ament_target_dependencies(要生成的动态链接库的名字  需要的依赖)
+
+include_directories(include)  # 添加头文件目录
+set(library_name2 ${PROJECT_NAME}_line_plugin)  # 定义库名称
+add_library(${library_name2} SHARED  src/nav2_line_custom_planner.cpp)
+ament_target_dependencies(${library_name2} nav2_core pluginlib)
 
 # 将生成的动态链接库拷贝到 install 目录下
 install(TARGETS ${library_name}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS ${library_name2}
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}
